@@ -1,9 +1,6 @@
-# huajh7.github.io
+# blog.huajh7.com
 
-This is my personal blog.
-
-
-My repo for my personal homepage page is [here](https://github.com/huajh/huajh.github.io).
+This is my personal website.
 
 
 ## License
