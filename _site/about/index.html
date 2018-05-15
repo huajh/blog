@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Imagination is more important than knowledge. -Albert Einstein">
+    <meta name="keywords"  content="华俊豪, huajh, huajh7, Junhao Hua, @huajh, 华俊豪的博客, huajh7's Blog, 博客, 机器学习, 贝叶斯">
+    <meta name="theme-color" content="#000000">
+    
+    <title>about - Junhao Hua 博客 | huajh7's Blog</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/about/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://huajh7.com" > Academic Website</a>
+            <a class="navbar-brand" href="/">huajh7's Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">about</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/archives/">Archives</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        height: 417px;
+        background-image: url('/img/bg_mr_white.jpg')
+    }
+
+    
+
+    .t2title{
+      font-weight: 400; /*bold*/
+      color: rgb(0,132,0);
+    }
+
+    .paragraph{
+        font-size:24px; 
+        font-weight:500;
+    }
+
+    .tdate {
+      font-size: 18px;
+      font-weight: 400;
+      color: rgb(132,0,0);
+    }
+
+</style>
+
+<!-- Page Header -->
+
+<header class="intro-header"> <!-- style="background-image: url('/img/bg_mr_white.jpg')" -->
+    <!-- <div class="header-mask"></div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>  Junhao Hua </h1>
+                    <span class="subheading"> PhD student at ZJU </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-9 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
+
+                <p>My <a href="http://www.huajh7.com/">academic website</a> has much more information. </p>
+
+                <hr />
+                
+                <span class="paragraph">Bio.</span>                
+                 I am currently a PhD Student at <a href="http://www.isee.zju.edu.cn/">College of ISEE</a>, Zhejiang University, China, working with <a href="http://mypage.zju.edu.cn/cgli">Chunguang Li</a> on <span class="t2title">Variational Bayesian Algorithms and their applications in Distributed Systems</span>. 
+
+                 <hr />
+
+                <span class="paragraph"> Research interests</span>
+                
+                <p>My Ph.D research work covers a range of issues: <span class="t2title">variational Bayesian inference, stochastic / distributed optimization</span>, probabilistic graphical models, transfer learning, multitask learning and sensor networks. </p>
+
+                <p>Currently, I am interesting in varies approaches to <span class="t2title">deep learning</span> (CNN, GAN, Deep Bayesian Learning, etc.) and their applications to computer vision (image processing, video analysis, etc.).  </p>
+
+                <p>
+                On a side for fun I  maintain several Projects (e.g. <a href="https://github.com/huajh/action_recognition">ActionRecognition</a>, <a href="https://github.com/huajh/Age_Estimation_via_fastAAMs">AgeEstimation</a>, <a href="https://github.com/huajh/variational_bayesian_clusterings">VBClusterings</a>, <a href="https://github.com/huajh/unix_file_sys">UnixFileSystem</a>).</p>
+
+                 <hr />
+
+                <span class="paragraph">Education &amp; Experience.</span>  
+                <br><br>
+                <ul>
+                    <li><span class="tdate">2013 - now:</span> Ph.D. student, Circuits and Systems, Zhejiang University. 
+                    Adviser: <a href="http://mypage.zju.edu.cn/cgli">Chunguang Li</a>. </li>     
+
+                    <li><span class="tdate">Summer 2012:</span> C/C++ Engineer Internship at State Stree(Hangzhou).</li>     
+
+                    <li><span class="tdate">2009-2013:</span> Bachelor's Degree, double major in Computer Science and Automation, 
+                    Zhejiang University of Technology. Adviser: <a href="http://sychen.com/">Shengyong Chen</a>.</li>
+                </ul>
+
+                <hr />
+
+                <span class="paragraph">Publications</span>  
+                <a style="font-size: 18px; font-weight: 400;" target="_blank" href="https://scholar.google.com/citations?neG8uIIAAAAJ&hl"> [Google scholar]</a>
+                <br><br>                 
+                <ul>
+                    <li>
+                    <strong>Junhao Hua</strong>, Chunguang Li, <span class="t2title">Distributed Variational Bayesian Algorithms for Robust Kalman Filtering over Networks</span>, 
+                    submitted to IEEE Transactions on Signal and Information Processing over Networks. 
+                    </li>				
+                    <li>
+                    <strong>Junhao Hua</strong>, Chunguang Li, <span class="t2title">Distributed Variational Bayesian Algorithms for Extended Object Tracking</span>, 
+                    submitted to IEEE Transactions on Aerospace and Electronic Systems. 
+                    </li>
+                    <li><strong>Junhao Hua,</strong> Chunguang Li, <span class="t2title">Distributed Jointly Sparse Bayesian Learning with Quantized Communication</span>, 
+                    IEEE Transactions on Signal and Information Processing over Networks, accepted，2018. 
+                    </li>    
+                    <li>
+                    <strong>Junhao Hua</strong>, Chunguang Li, Hui-Liang Shen, 
+                    <span class="t2title">Distributed Learning of Predictive Structures from Multiple Tasks Over Networks</span>, 
+                    IEEE Transactions on Industrial Electronics(<strong>TIE</strong>), preprint, DOI: 10.1109/TIE.2016.2588463.
+                    </li>                    
+                    <li>
+                    <strong>Junhao Hua</strong>, Chunguang Li, <span class="t2title">Distributed Variational Bayesian Algorithms over Sensor Networks</span>, 
+                    IEEE Transactions on Signal Processing (<strong>TSP</strong>), vol.64, no.3, pp.783-798, Feb. 2016.
+                    </li>
+                </ul>
+                <hr />
+			</div>  
+
+	    <!-- Side Catalog Container -->
+	        
+
+        </div>
+
+    </div>
+</article>
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "huajh7";
+    var disqus_identifier = "";
+    var disqus_url = "http://localhost:4000/about/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/huajh7">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/huajh">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/hua-jun-hao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/junhao-hua-01b03150">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                                        
+                </ul>
+                <p class="copyright text-muted" style="font-size: 17px">
+                    Copyright &copy; huajh7's Blog 2018
+                    <br>
+                    <a href="http://www.easycounter.com/">
+                    <img alt="Website Hit Counter" src="http://www.easycounter.com/counter.php?blog_huajh7" border="0"></a>
+                     <i><font size="2" face="Arial">Vistors Since Apr 2017</font></i>
+                    <br>
+<!--                     Theme by <a href="https://github.com/Huxpro/huxpro.github.io">Hux</a> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
+</script>
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async('/js/jquery.tagcloud.js',function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '78399d5a8a7f58e0d22390246d356dab';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Side Catalog -->
+
+
+
+
+
+<!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0" /> -->
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+
+</html>

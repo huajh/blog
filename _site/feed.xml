@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>huajh7's Blog</title>
+    <description>Imagination is more important than knowledge. -Albert Einstein</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 28 Apr 2018 09:15:46 +0800</pubDate>
+    <lastBuildDate>Sat, 28 Apr 2018 09:15:46 +0800</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>信息的交叉获取与联想激活</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;非常草率的笔记&lt;/p&gt;
+
+  &lt;p&gt;胡思乱想，千万别当真&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;感知信息的交叉获取&quot;&gt;感知信息的交叉获取&lt;/h2&gt;
+
+&lt;p&gt;信息的获取并非只由单方面的感知，可能是由于多个感知的交叉作用，比如，鼻子闻到香味，眼睛看到物体，耳朵听到声音，以及大脑对历史事件 (人，物，情绪) 的联想。他们之间是如何相互作用的，他们的最终结果是不是引起了想象？&lt;/p&gt;
+
+&lt;p&gt;潜意识构造了一个场景，人类的视觉味觉触觉听觉感受到的感觉作用到这个场景中，存储的知识（画面等）也推送到这个场景中。此时，对动作、物体的判断，是如何快速有效的完成。&lt;/p&gt;
+
+&lt;p&gt;当你置身于一个新环境中，你会对环境中每个未曾见过的物体感兴趣，信息量很大。&lt;/p&gt;
+
+&lt;p&gt;当你坐在熟悉的办公室里，你对办公室的每个物体都有潜意识的判断，这是存储在大脑中的记忆，对你而言，办公室的信息量很低。但有大致的轮廓，这也是大脑记忆的部分。 你不会关注每一个细节，这是人类的大脑策略？
+当你在某一刻在集中注意力的时候，对细节的观察却容易被激活。这也是种策略？&lt;/p&gt;
+
+&lt;p&gt;机器如何调度自己存储的知识，如何在合适的场景下只学习最恰当的知识，并合适的时刻触发激活相关知识。&lt;/p&gt;
+
+&lt;p&gt;高级的激活是想象引起的吗？&lt;/p&gt;
+
+&lt;p&gt;想象不只是：联系，相关，相似性。也不只是局部的，想象可以天马行空，具有&lt;strong&gt;跳跃性&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;当实验室师弟说：“他们&lt;code class=&quot;highlighter-rouge&quot;&gt;宿舍&lt;/code&gt;还没去吃饭”的时候，其他人都知道师弟是口误，其实说的是“他们&lt;code class=&quot;highlighter-rouge&quot;&gt;实验室&lt;/code&gt;还没去吃饭”。
+而此时，联想的不只是自然语言层面（或者文字层面）的语义相关性。此时，人会想象这样一个场景，这样一幅画面以及画面所拥有的含义。这种想象被&lt;code class=&quot;highlighter-rouge&quot;&gt;语言/文本&lt;/code&gt;激活的。另一方面，这种想象又激活了&lt;code class=&quot;highlighter-rouge&quot;&gt;实验室&lt;/code&gt;这个概念。&lt;/p&gt;
+
+&lt;p&gt;想象是人比机器高明得多的东西。&lt;/p&gt;
+
+&lt;p&gt;那么，想象是什么，什么才能引发想象？对当前事物的感知，触发了历史的记忆，经过大脑的推理， 或者激活了历史中出现过的，或者生成了虚构的画面。&lt;/p&gt;
+
+&lt;h2 id=&quot;想象潜意识以及做梦&quot;&gt;想象，潜意识，以及做梦&lt;/h2&gt;
+
+&lt;p&gt;人类会做梦，做梦会反应潜意识心理。做梦的内容，跟在睡前思考的东西或者有意识无意识接触的东西相关。做梦跟想象有什么区别。做梦没有新信息的引入（真的没有吗）。机器是不会做梦的，能让机器在做梦(无信息输入)吗, 为了某种目的，是否能够（睡前）输入某种扰动干扰梦境吗？&lt;/p&gt;
+
+&lt;p&gt;Hinton 1995年的wake-sleep algorithm在概念上在某种程度上是否是一种很浅显的&lt;strong&gt;睡眠学习&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;知识的交叉学习&quot;&gt;知识的交叉学习&lt;/h2&gt;
+
+&lt;p&gt;如何对各种领域知识进行交叉学习（图像，语言，文字，气味，触觉），想象的场景是这些交叉学习结果的最终呈现吗。&lt;/p&gt;
+
+&lt;p&gt;如何评价不同信息之间的相互作用。&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 14 Apr 2017 19:07:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/04/14/perception-knowledge-imaginiation/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/14/perception-knowledge-imaginiation/</guid>
+        
+        <category>Ideas</category>
+        
+        <category>Imaginiation</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>除雾算法最新进展</title>
+        <description>&lt;p&gt;除雾算法主要包括 1) 图像增强方法，和2) 基于物理模型的方法。&lt;/p&gt;
+
+&lt;p&gt;后者又包括(1)基于景物深度信息, (2)基于大气光偏振特性, 以及(3)基于雾天图像的先验知识。&lt;/p&gt;
+
+&lt;p&gt;下面总结下基于雾天图像的先验知识的去雾算法。&lt;/p&gt;
+
+&lt;h4 id=&quot;maximum-contrast&quot;&gt;Maximum Contrast&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;基于统计信息, 认为无雾图像相对于有雾图像来说对比度要高得多&lt;/p&gt;
+
+  &lt;p&gt;根据大气散射模型，雾霾会降低物体成像的对比度. 因此，基于这个推论可利用局部对比度来近似估计雾霾的浓度。同时，也可以通过最大化局部对比度来还原图像的颜色和能见度。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;RT Tan, &lt;strong&gt;Visibility in bad weather from a single image&lt;/strong&gt;, CVPR, &lt;code class=&quot;highlighter-rouge&quot;&gt;2008&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1000+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;fattal&quot;&gt;Fattal&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;这种方法是基于物理的复原模型, 复原图像自然且能求出良好的深度图. 然而, 这种方法是基于彩色图像的统计特性的,因而该方法也无法作用于灰度图像, 而且这个统计特性在浓雾区域和低信噪比区域会失效&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Raanan Fattal, &lt;strong&gt;Single image dehazing&lt;/strong&gt;, TOG, &lt;code class=&quot;highlighter-rouge&quot;&gt;2008&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1100+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;dark-channel-prior&quot;&gt;Dark Channel Prior&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;说起去雾特征，不得不提起的暗通道先验（DCP）。大道之行在于简，DCP作为CVPR 2009的最佳论文，以简洁有效的先验假设解决了雾霾浓度估计问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;观察发现，清晰图像块的RGB颜色空间中有一个通道很暗（数值很低甚至接近于零）。因此基于暗通道先验，雾的浓度可由最暗通道的数值近似表示.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Kaiming He, &lt;strong&gt;Single Image Haze Removal Using Dark Channel Prior&lt;/strong&gt;, CVPR/PAMI, &lt;code class=&quot;highlighter-rouge&quot;&gt;2009/2011&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1800+&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;该方法具有革命性, 简单有效, 去雾效果理想, 处理后图像颜色自然逼真, 少有地用一个简单得不可思议的方法使一个复杂问题的实验效果得到巨大的提升.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;propose the &lt;strong&gt;Dark Channel Prior&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;soft matting过程比较复杂，并且执行速度非常慢&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kaiming He, &lt;strong&gt;Guided Image Filtering&lt;/strong&gt;, ECCV/PAMI, &lt;code class=&quot;highlighter-rouge&quot;&gt;2010/2013&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1990+&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;导向滤波来代替soft matting的过程，且速度很快&lt;/p&gt;
+
+  &lt;p&gt;暗通道先验去雾算法的参数需要根据不同的图像手动地作出调整, 无法自适应调整.
+该方法所使用的软抠图算法需要进行大型稀疏矩阵的运算,时间和空间复杂度都极高,无法实时处理大幅图片, 而且当景物颜色与天空颜色接近且没有阴影时, 暗原色先验失效, 该算法也随之失效。&lt;/p&gt;
+
+  &lt;p&gt;后来该文献的作者 He 又使用了引导滤波替代软抠图处理, 较大地提高了效率 (600像素 x 400 像素图像处理时间从 10 秒变为 0.1 秒)的同时, 去雾效果基本不变&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;有很多改进算法&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;Zhengguo Li, &lt;strong&gt;Weighted Guided Image Filtering&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;40+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;tarel&quot;&gt;Tarel&lt;/h4&gt;
+
+&lt;p&gt;Tarel 假设大气耗散函数 (Atmosphericveil) 在局部上变化平缓, 因此用中值滤波代替 He等的算法中的最小值滤波来对介质透射系数进行估计.&lt;/p&gt;
+
+&lt;p&gt;Jean-Philippe Tarel, &lt;strong&gt;Fast visibility restoration from a single color or gray level image&lt;/strong&gt;, CVPR, &lt;code class=&quot;highlighter-rouge&quot;&gt;2009&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;600+&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He与Tarel的方法简单有效,尤其He提出的暗原色先验去雾算法是图像去雾领域的一个&lt;code class=&quot;highlighter-rouge&quot;&gt;重要突破&lt;/code&gt;, 为图像去雾的研究人员提供了一个新思路,后来出现的许多去雾算法都是基于这两种算法的改进或补充&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;color--attenuation-prior&quot;&gt;Color  Attenuation Prior&lt;/h4&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;作者提出了一个简单，但是很有效的先验：颜色衰减先验（CAP），用来通过仅仅输入一张有雾的图像来去除雾的影响。这是一种与暗通道先验（DCP）相似的先验特征。&lt;/p&gt;
+
+  &lt;p&gt;作者观察发现雾霾会同时导致图像饱和度的降低和亮度的增加，整体上表现为颜色的衰减。根据颜色衰减先验，亮度和饱和度的差值被应用于估计雾霾的浓度.&lt;/p&gt;
+
+  &lt;p&gt;作者创建了一个线性回归模型，利用颜色衰减先验这个新奇的先验，通过对有雾图像场景深度的建模，利用有监督学习的方法学习到的参数，深度信息会被很好的恢复。利用有雾图像的深度图，我们可以很容易的恢复一张有雾的图像。&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Qingsong Zhu, &lt;strong&gt;A fast single image haze removal algorithm using color attenuation prior&lt;/strong&gt;, TIP, &lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;60+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Project page: &lt;a href=&quot;https://github.com/JiamingMai/Color-Attenuation-Prior-Dehazing&quot;&gt;https://github.com/JiamingMai/Color-Attenuation-Prior-Dehazing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;expermental results&lt;/code&gt;
+&lt;img src=&quot;/img/posts/haze-removal/post-haze-removal-zhu2016.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-综述&quot;&gt;3. 综述&lt;/h2&gt;
+
+&lt;p&gt;吴迪, &lt;strong&gt;图像去雾的最新研究进展&lt;/strong&gt;, 自动化学报, &lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;55&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-最新文献&quot;&gt;4. 最新文献&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;deep learning&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;DehazeNet是一个特殊设计的深度卷积网络，利用深度学习去智能地学习雾霾特征，解决手工特征设计的难点和痛点。&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bolun Cai, &lt;strong&gt;DehazeNet: An End-to-End System for Single Image Haze Removal&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;9&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Project page: &lt;a href=&quot;http://caibolun.github.io/DehazeNet/&quot;&gt;http://caibolun.github.io/DehazeNet/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/caibolun/DehazeNet&quot;&gt;https://github.com/caibolun/DehazeNet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dana Berman, &lt;strong&gt;Non-Local Image Dehazing&lt;/strong&gt;, CVPR, 2016, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;7&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Mostafa M. El-Hashash, &lt;strong&gt;High-speed video haze removal algorithm for embedded systems&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Real-time video processing&lt;/li&gt;
+  &lt;li&gt;uses the dark channel prior&lt;/li&gt;
+  &lt;li&gt;eight frames per second at 720 x 480 video frame resolution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Adobe, Photoshop Lightroom CC, &lt;a href=&quot;http://www.adobe.com/products/photoshop-lightroom/features.html&quot;&gt;http://www.adobe.com/products/photoshop-lightroom/features.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 08 Apr 2017 04:02:02 +0800</pubDate>
+        <link>http://localhost:4000/2017/04/08/Image-dehazing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/08/Image-dehazing/</guid>
+        
+        <category>Computer Vision</category>
+        
+        <category>Image Processing</category>
+        
+        <category>Image Haze Removal</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>运动检测文献综述</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;又名：运动侦测，移动侦测，移动检测&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;方法和思路&quot;&gt;方法和思路&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-帧差分法-frame-differencing&quot;&gt;1. 帧差分法 (frame differencing)&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Frame differencing is a technique where the computer checks the differencebetween two video frames. If the pixels have changed there apparently was something changing in the image (moving for example). Most techniques work with some blur and threshold, to distict real movement from noise. Because frame could differ too when light conditions in a room change ( and &lt;strong&gt;camera auto focus&lt;/strong&gt;, &lt;strong&gt;brightness correction&lt;/strong&gt; etc. ).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;from: &lt;a href=&quot;http://www.kasperkamperman.com/blog/computer-vision/computervision-framedifferencing/&quot;&gt;kasperkamperman-computervision-framedifferencing&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;帧间差分法&lt;/li&gt;
+  &lt;li&gt;三帧差分法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;背景差分法(Background difference) : 视频帧图像与背景模型图像进行差分和阈值分割&lt;/p&gt;
+
+  &lt;p&gt;帧差分法： 视频中的一帧图像与另一帧图像进行差分运算&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;帧差可说是最简单的一种背景模型，指定视频中的一幅图像为背景，用当前帧与背景进行比较，根据需要过滤较小的差异 （阈值），得到的结果就是前景了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;2-背景减除法-background-subtraction&quot;&gt;2. 背景减除法 (Background subtraction)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;定义:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Background subtraction algorithm&lt;/strong&gt; is to distinguish moving objects (hereafter referred to as the &lt;code class=&quot;highlighter-rouge&quot;&gt;foreground&lt;/code&gt;) from static, or slow moving, parts
+of the scene (called &lt;code class=&quot;highlighter-rouge&quot;&gt;background&lt;/code&gt;).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Background subtraction, also known as &lt;code class=&quot;highlighter-rouge&quot;&gt;foreground detection(前景检测)&lt;/code&gt;, is a technique in the fields of image processing and computer vision wherein an image’s foreground is extracted for further processing (object recognition etc.). Generally an image’s regions of interest are objects (humans, cars, text etc.) in its foreground. After the stage of image preprocessing (which may include image denoising, post processing like morphology etc.) object localisation is required which may make use of this technique.&lt;/p&gt;
+
+  &lt;p&gt;from &lt;a href=&quot;https://en.wikipedia.org/wiki/Background_subtraction&quot;&gt;wiki/Background_subtraction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;需要解决的问题：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;light changes(光照)&lt;/strong&gt;: the background model should adapt to gradual or fast &lt;code class=&quot;highlighter-rouge&quot;&gt;illumination changes&lt;/code&gt; (changing time of day, clouds, etc);&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;moving background&lt;/strong&gt; or &lt;strong&gt;high frequency background objects&lt;/strong&gt;(树叶等): the background model should include changing background that is not of interest for visual surveillance, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;waving trees or branches&lt;/code&gt;;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;cast shadows(阴影)&lt;/strong&gt;: the background model should include the &lt;code class=&quot;highlighter-rouge&quot;&gt;shadow cast by moving objects&lt;/code&gt; that apparently behaves itself moving, in order to have a more accurate detection of the moving objects shape;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bootstrapping(初始化)&lt;/strong&gt;: the background model should be properly set up even in the absence of a complete and static (free of moving objects) training set at the beginning of the sequence;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;camouflage(背景相似)&lt;/strong&gt;: moving objects should be detected even if their chromatic features are similar to those of the background model.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;motion changes&lt;/strong&gt; (camera oscillations);&lt;/li&gt;
+  &lt;li&gt;changes in the &lt;strong&gt;background geometry&lt;/strong&gt; (e.g., parked cars).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ghost&lt;/strong&gt;区域：当一个原本静止的物体开始运动，背静差检测算法可能会将原来该物体所覆盖的区域错误的检测为运动的，这块区域就成为Ghost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;技术&lt;/strong&gt;：
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Pixel-based&lt;/code&gt; background subtraction: a static background frame, the (weighted) running average [21], first-order low-pass filtering [22], temporal median filtering [23], [24], and the modeling of each pixel with a Gaussian [25]–[27].&lt;/p&gt;
+
+&lt;p&gt;需要考虑三个问题：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;如何 &lt;strong&gt;建立和使用&lt;/strong&gt; 背景模型&lt;/li&gt;
+  &lt;li&gt;如何 &lt;strong&gt;初始化&lt;/strong&gt; 背景模型&lt;/li&gt;
+  &lt;li&gt;如何 &lt;strong&gt;实时更新&lt;/strong&gt; 背景模型&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;21-高斯模型-gaussian-model&quot;&gt;2.1 高斯模型 (Gaussian Model)&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Single Gussian &amp;amp; Running Gaussian average&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wren, Pfinder: &lt;strong&gt;Real-time tracking of the human body&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;1997&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;5000+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; – Pfinder is a real-time system for tracking people and interpreting thier behavior. It runs at 10Hz on a standard SGI Indy computer, and has performed reliably on thousands of people in many different physical locations. The system uses a multi-class statistical model of color and shape to obtain a 2-D representation of head and hands in a wide range of viewing conditions. Pfinder has been successfully used in a wide range of applications including wireless interfaces, video databases, and low-bandwidth coding.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Mixture of Gaussian Model&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;KaewTraKulPong, &lt;strong&gt;An improved adaptive background mixture model for real-time tracking with shadow detection&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2001&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1400+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; – Real-time segmentation of moving regions in image sequences is a fundamental step in many vision systems including automated visual surveillance, human-machine interface, and very low-bandwidth telecommunications. A typical method is background subtraction. Many background models have been introduced to deal with different problems. One of the successful solutions to these problems is to use a multi-colour background model per pixel proposed by Grimson et al [1,2,3]. However, the method suffers
+from slow learning at the beginning, especially in busy environments. In addition, it can not distinguish between moving shadows and moving objects. This paper presents a method which improves this adaptive background mixture model. By reinvestigating the update equations, we utilise different equations at different phases. This allows our system learn faster and more accurately as well as adapt effectively to changing environments. A shadow detection scheme is also introduced in this paper. It is based on a computational colour space that makes use of our background model. A comparison has been made
+between the two algorithms. The results show the speed of learning and the accuracy of the model using our update algorithm over the Grimson et al’s tracker. When incorporate with the shadow detection, our method results in far better segmentation than that of Grimson et al.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;李鸿, &lt;strong&gt;基于混合高斯模型的运动检测及阴影消除算法研究&lt;/strong&gt;, 中国民航大学硕士论文， &lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;卢章平，&lt;strong&gt;背景差分与三帧差分结合的运动目标检测算法&lt;/strong&gt; ，计算机测量与控制，&lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;44&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;混合高斯在现有的背景建模算法中应该算是比较好的，很多新的算法或改进的算法都是基于它的一些原理的不同变体，但混合高斯算法的缺点是计算量相对比较大，速度偏慢，对光照敏感&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;22-w4-algorithm-what-where-who-when&quot;&gt;2.2 W4 algorithm (What? Where? Who? When?)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ismail Haritaoglu, &lt;strong&gt;W4: A Real Time System for Detecting and Tracking People&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;1998&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1100+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt;  W^4 is a real time visual surveil lance system for detecting and tracking people and monitoring their activities in an outdoor environment. It operates on monocular grayscale video imagery, or on video imagery from an infrared camera. Unlike many of systems for tracking people, W^4 makes no use of color cues. Instead, W^4 employs a combination of shape analysis and tracking to locate people and their parts (head, hands, feet, torso) and to create models of people’s appearance so that they can be tracked through
+interactions such as occlusions. W^4 is capable of simultaneously tracking multiple people even with occlusion. It runs at 25 Hz for 320x240 resolution images on a dual-pentium PC.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;W4算法应该是最早被用于实际应用的一个算法.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;23-基于颜色信息的背景建模-color&quot;&gt;2.3 基于颜色信息的背景建模 (color)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Horprasert, &lt;strong&gt;A statistical approach for real-time robust background subtraction and shadow detection&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;1999&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1200+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; This paper presents a novel algorithm for detecting moving objects from a static background scene that contains shading and shadows using color images. We develop a robust and efficiently computed background subtraction algorithm that is able to cope with local il lumination changes,
+such as shadows and highlights, as wel l as global il lumination changes. The algorithm is based on a proposed computational color model which separates the brightness from the chromaticity component. We have applied this method to real image sequences of both indoor and outdoor scenes. The results, which demonstrate the system’s performance, and some speed up techniques we employed in our implementation are also shown.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;算法初衷：解决关于全局或局部的光照变化问题，例如阴影和高亮&lt;/p&gt;
+
+  &lt;p&gt;基于颜色信息的背景建模方法,简称Color算法，该算法将像素点的差异分解成Chromaticity差异和Brightness差异，对光照具有很强的鲁棒性，并有比较好的效果，计算速度也比较快，基本可以满足实时性的要求，做了许多视频序列的检测，效果比较理想；&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;24-本征背景法&quot;&gt;2.4 本征背景法&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nuria M. Oliver, &lt;strong&gt;A Bayesian computer vision system for modeling human interactions&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2000&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1500+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; — We describe a real-time computer vision and machine learning system for modeling and recognizing human behaviors in a visual surveillance task [1]. The system is particularly concerned with detecting when interactions between people occur and classifying the type of interaction. Examples of interesting interaction behaviors include following another person, altering one’s path to meet another, and so forth. Our system combines top-down with bottom-up information in a closed feedback loop, with both
+components employing a statistical Bayesian approach [2]. We propose and compare two different state-based learning architectures, namely, HMMs and CHMMs for modeling behaviors and interactions. The CHMM model is shown to work much more efficiently and accurately. Finally, to deal with the problem of limited training data, a synthetic “Alife-style” training system is used to develop flexible prior models for recognizing human interactions. We demonstrate the ability to use these a priori models to accurately classify real human behaviors and interactions with no additional tuning or training.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;基于贝叶斯框架&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;25-核密度估计方法&quot;&gt;2.5 核密度估计方法&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ahmed Elgammal, &lt;strong&gt;Non-parametric model for background subtraction&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2000&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;2500+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; Background subtraction is a method typically used to segment moving regions in image sequences taken from a static camera
+by comparing each new frame to a model of the scene background. We
+present a novel non-parametric background model and a background
+subtraction approach. The model can handle situations where the background of the scene is cluttered and not completely static but contains
+small motions such as tree branches and bushes. The model estimates
+the probability of observing pixel intensity values based on a sample of
+intensity values for each pixel. The model adapts quickly to changes in
+the scene which enables very sensitive detection of moving targets. We
+also show how the model can use color information to suppress detection of shadows. The implementation of the model runs in real-time for
+both gray level and color imagery. Evaluation shows that this approach
+achieves very sensitive detection with very low false alarm rates.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;比较鲁棒的算法，无需设置参数.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;26-背景统计模型&quot;&gt;2.6 背景统计模型&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;对一段时间的背景进行统计，然后计算其统计数据（例如平均值、平均差分、标准差、均值漂移值等等），将统计数据作为背景的方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;统计平均法&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BPL Lo, &lt;strong&gt;Automatic congestion detection system for underground platform&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2001&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;300+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; - An automatic monitoring system is proposed in this paper for detecting overcrowding conditions in the platforms of underground train services.
+Whenever overcrowding is detected, the system will notify the station operators to take appropriate actions to prevent accidents, such as
+people falling off or being pushed onto the tracks. The system is designed to use existing closed circuit television (CCTV) cameras for acquiring
+images of the platforms. In order to focus on the passengers on the platform, background subtraction and update techniques are used. In addition, due to the high variation of brightness on the platforms, a variance filter is introduced
+to optimize the removal of background pixels. A multi-layer feed forward neural network was developed for classifying the levels of congestion. The system was tested with recorded video from the London Bridge station, and the testing results were shown to be accurate in identifying overcrowding conditions for the unique platform environment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;中值滤波法 (Temporal Median filter)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;R Cucchiara, &lt;strong&gt;Detecting Moving Objects, Ghosts, and Shadows in Video Streams&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2003&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1600+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; — Background subtraction methods are widely exploited for moving
+object detection in videos in many applications, such as traffic monitoring, human motion capture, and video surveillance. How to correctly and efficiently model and update the background model and how to deal with shadows are two of the most distinguishing and challenging aspects of such approaches. This work proposes a general-purpose method that combines statistical assumptions with the objectlevel knowledge of moving objects, apparent objects (ghosts), and shadows acquired in the processing of the previous frames. Pixels belonging to moving objects, ghosts, and shadows are processed differently in order to supply an object-based selective update. The proposed approach exploits color information for both background subtraction and shadow detection to improve object segmentation and background update. The approach proves fast, flexible, and precise in terms of both pixel accuracy and reactivity to background changes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;统计平均法和中值滤波法，算法的应用具有很大的局限性，只能算是理论上的一个补充.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;27-复杂背景下的前景物体检测-fgd&quot;&gt;2.7 复杂背景下的前景物体检测 (FGD)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Liyuan Li, &lt;strong&gt;Foreground Object Detection from Videos Containing Complex Background&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2003&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;500+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; –  This paper proposes a novel method for detection and segmentation of foreground objects from a video which contains both stationary and moving background objects and undergoes both gradual and sudden “once-off” changes. A Bayes decision rule for classification of background and foreground
+from selected feature vectors is formulated. Under this rule, different types of background objects will be classified from foreground objects by choosing a proper feature vector. The stationary background object is described by the color feature, and the moving background object is represented by the color co-occurrence feature. Foreground objects are extracted by fusing the classification results from both stationary and moving pixels. Learning strategies for the gradual and sudden “once-off” background changes are proposed to adapt to various changes in background through the video. The convergence of the learning process is proved and a formula to select a proper learning rate is also derived. Experiments have shown promising results in extracting foreground objects from many complex backgrounds including wavering
+tree branches, flickering screens and water surfaces, moving escalators, opening and closing doors, switching lights and shadows of moving objects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;28-码本-codebook&quot;&gt;2.8 码本 (CodeBook)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;编码本的基本思路是这样的：针对每个像素在时间轴上的变动，建立多个（或者一个）包容近期所有变化的Box（变动范围）；在检测时，用当前像素与Box去比较，如果当前像素落在任何Box的范围内，则为背景。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;K Kim, &lt;strong&gt;Real-time foreground–background segmentation using codebook model&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2005&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1400+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Ilyas, &lt;strong&gt;Real-time foreground-background segmentation using a modified codebook model&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2008&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;50+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; – We present a real-time algorithm for foreground–background segmentation. Sample background values at each pixel are quantized into codebooks which represent a compressed form of background model for a long image sequence. This allows us to capture structural background variation due to periodic-like motion over a long period of time under limited memory. The
+codebook representation is efficient in memory and speed compared with other background modeling techniques. Our method can handle scenes containing moving backgrounds or illumination variations, and it achieves robust detection for different types of videos. We compared our method with other multimode modeling techniques. 
+In addition to the basic algorithm, two features improving the algorithm are presented—layered modeling/detection and adaptive
+codebook updating.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Background modeling&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The CB algorithm adopts a &lt;strong&gt;quantization/clustering&lt;/strong&gt; technique to construct a
+background model from long observation sequences. For each pixel, it builds a &lt;code class=&quot;highlighter-rouge&quot;&gt;codebook&lt;/code&gt; consisting of one or more codewords. Samples at each pixel are clustered into the set of codewords based on &lt;code class=&quot;highlighter-rouge&quot;&gt;a color distortion metric&lt;/code&gt; together with brightness bounds. Not all pixels have the same number of codewords. The clusters represented by codewords do not necessarily correspond
+to single Gaussian or other parametric distributions. Even if the distribution at a pixel were a single normal, there could be several codewords for that pixel. The background is encoded on a &lt;code class=&quot;highlighter-rouge&quot;&gt;pixel-by-pixel basis&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Detection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Detection involves testing the difference of the current image from the background model with respect to &lt;code class=&quot;highlighter-rouge&quot;&gt;color and brightness differences&lt;/code&gt;. If an incoming pixel meets two conditions, it is classified as background — (1) the color distortion to some codeword is less than the &lt;code class=&quot;highlighter-rouge&quot;&gt;detection threshold&lt;/code&gt;, and (2) its brightness lies within the &lt;code class=&quot;highlighter-rouge&quot;&gt;brightness range&lt;/code&gt; of that codeword. Otherwise, it is classified as foreground.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;效果还可以，有多种变体，对光照敏感&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;29-样本一致性背景建模算法--sacon&quot;&gt;2.9 样本一致性背景建模算法  (SACON)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hanzi Wang, &lt;strong&gt;A consensus-based method for tracking: Modelling background scenario and foreground appearance&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2007&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;100+&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; – Modelling of the background (“uninteresting parts of the scene”), and of the foreground, play important roles in the tasks of visual
+detection and tracking of objects. This paper presents an effective and adaptive background modelling method for detecting foreground objects in both static and dynamic scenes. The proposed method computes SAmple CONsensus (SACON) of the background samples and estimates a statistical model of the background, per pixel. SACON exploits both color and motion information to detect foreground objects. SACON can deal with complex background scenarios including nonstationary scenes (such as moving trees, rain, and fountains),
+moved/inserted background objects, slowly moving foreground objects, illumination changes etc. However, it is one thing to detect objects that are not likely to be part of the background; it is another task to track those objects. Sample consensus is again utilized to model the appearance of foreground objects to facilitate tracking. This appearance model is employed to
+segment and track people through occlusions. Experimental results from several video sequences validate the effectiveness of the proposed method.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;基于统计知识，效果还可以&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;210-自组织背景建模--sobs-self-organization-background-subtraction&quot;&gt;2.10 自组织背景建模  (SOBS: Self-organization background subtraction)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lucia Maddalena, &lt;strong&gt;A self-Organizing approach to background subtraction for visual surveillance Applications&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2008&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;580+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; — Detection of moving objects in video streams is the first relevant step of information extraction in many computer vision applications. Aside from the intrinsic usefulness of being able to segment video streams into moving and background components, detecting moving objects provides a focus of attention for recognition, classification, and activity analysis, making these later steps more efficient. We propose an approach based on self organization through artificial neural networks, widely applied in human image processing systems and more generally in cognitive science. The proposed approach can handle scenes containing moving backgrounds, gradual illumination variations and camouflage, has no bootstrapping limitations, can include
+into the background model shadows cast by moving objects, and achieves robust detection for different types of videos taken with stationary cameras. We compare our method with other modeling techniques and report experimental results, both in terms of detection accuracy and in terms of processing speed, for color video sequences that represent typical situations critical for video
+surveillance systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;对光照有一定的鲁棒性，但MAP的模型比输入图片大，计算量比较大，但是可以通过并行处理来解决算法的速度问题，可以进行尝试&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;211-vibe-a-universal-background-subtraction&quot;&gt;2.11 ViBe (A Universal Background Subtraction):&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Olivier Barnich, &lt;strong&gt;ViBe: A universal background subtraction algorithm for video sequences&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2011&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;800+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; — This paper presents a technique for motion detection
+that incorporates several innovative mechanisms. For example,
+our proposed technique stores, for each pixel, a set of values taken
+in the past at the same location or in the neighborhood. It then
+compares this set to the current pixel value in order to determine
+whether that pixel belongs to the background, and adapts the
+model by choosing randomly which values to substitute from the
+background model. This approach differs from those based on
+the classical belief that the oldest values should be replaced first.
+Finally, when the pixel is found to be part of the background, its
+value is propagated into the background model of a neighboring
+pixel. We describe our method in full details (including pseudocode and the parameter values used) and compare it to other
+background subtraction techniques. Efficiency figures show that
+our method outperforms recent and proven state-of-the-art
+methods in terms of both computation speed and detection
+rate. We also analyze the performance of a downscaled version
+of our algorithm to the absolute minimum of one comparison
+and one byte of memory per pixel. It appears that even such
+a simplified version of our algorithm performs better than
+mainstream techniques. An implementation of ViBe is available
+at http://www.motiondetection.org.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;VIBE算法是Barnich的一个大作，已申请了&lt;code class=&quot;highlighter-rouge&quot;&gt;专利&lt;/code&gt;。&lt;/p&gt;
+
+  &lt;p&gt;ViBe是一种像素级视频背景建模或前景检测的算法。&lt;/p&gt;
+
+  &lt;p&gt;利用视频第一帧图像就能完成背景建模初始化工作，根据邻近像素点之间具有相似性完成初始化和更新，依据当前图像的像素和背景模型中对应像素之间的相似性程度来检测前景目标。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;步骤：&lt;/strong&gt;视频帧序列 -&amp;gt; 第1帧 -&amp;gt; 初始化背景模型 -&amp;gt; 第2,…,N帧 -&amp;gt; 前景目标检测-&amp;gt;更新背景模型&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;模型初始化&lt;/strong&gt;： 为图像中每个像素建立一个大小为N的背景样本集，这个样本存储了该像素点邻近像素点的像素值以及过去这一点的像素值。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;像素分类/运动检测&lt;/strong&gt;：判断像素是前景还是背景像素。当前帧与背景样本集比较，得到相似度，根据阈值判定。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;背景模型实时更新&lt;/strong&gt;： 当前像素点被检测为背景像素，将按照一定概率用该像素点去更新自己的背景样本集或者是它的邻居点背景样本。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;算法的主要优势：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;内存占用少，没有浮点运算，计算量低，算法效率高，&lt;/li&gt;
+  &lt;li&gt;一个像素需要作一次比较，占用一个字节的内存；&lt;/li&gt;
+  &lt;li&gt;像素级算法，视频处理中的预处理关键步骤；&lt;/li&gt;
+  &lt;li&gt;背景模型初始化速度极快，适用于手持相机等复杂的视频环境；&lt;/li&gt;
+  &lt;li&gt;总体性能优于帧差发，光流法，混合高斯，SACON等，具有较好的抗噪能力。&lt;/li&gt;
+  &lt;li&gt;可直接应用在产品中，软硬件兼容性好；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;算法的缺点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;容易引入&lt;strong&gt;ghost&lt;/strong&gt; 区域，“鬼影”。&lt;/li&gt;
+  &lt;li&gt;对 &lt;strong&gt;光照&lt;/strong&gt; 强弱变化等动态场景敏感，不适用动态背景下的目标检测。&lt;/li&gt;
+  &lt;li&gt;无法消除运动目标的 &lt;strong&gt;阴影&lt;/strong&gt; 。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;改进：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;自适应阈值&lt;/li&gt;
+  &lt;li&gt;形态学处理&lt;/li&gt;
+  &lt;li&gt;结合三帧差分、边缘检测等技术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;More&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;M Van Droogenbroeck, &lt;strong&gt;Background subtraction: Experiments and improvements for ViBe&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2012&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;140+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;余烨, &lt;strong&gt;EVibe:一种改进的Vibe运动目标检测算法&lt;/strong&gt;,仪器仪表学报,2014, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;27&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;此算法扩大了样本的取值范围，避免了样本的重复选取;采用隔行更新方式对邻域进行更新， 避免了错误分类的扩散;采用小目标丢弃和空洞填充策略去除了噪声的影响;添加了阴影去除模块, 增强了算法对阴影的鲁棒性&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;胡小冉, &lt;strong&gt;一种新的基于ViBe的运动目标检测方法&lt;/strong&gt;,计算机科学,&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;20&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;预处理阶段通过三帧差分获得真实背景并消除鬼影，运动目标检测阶段结合先验知识和边缘检测方法获得真实的运动目标以消除阴影，目标描述与跟踪阶段运用像素标记分割方法得到目标描述 并实现目标跟踪。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;桂斌, &lt;strong&gt;基于ViBe的运动目标检测与阴影消除方法研究&lt;/strong&gt;, 安徽大学硕士论文, &lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;王彬, &lt;strong&gt;基于改进的ViBE和HOG的运动目标检测系统研究与实现&lt;/strong&gt;, 沈阳工业大学硕士论文,  &lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;212-summary&quot;&gt;2.12 Summary&lt;/h4&gt;
+&lt;p&gt;SOBS、Color、VIBE、SACON、W4等可以进行深入的了解，特别是近年来出现的Block-based或Region-Based、Features-Based、基于层次分类或层次训练器的算法可以进行深入的研究。&lt;/p&gt;
+
+&lt;h3 id=&quot;3-运动分割motion-segmentation&quot;&gt;3. 运动分割（motion segmentation）&lt;/h3&gt;
+
+&lt;p&gt;In &lt;strong&gt;motion segmentation&lt;/strong&gt;, the moving objects are continuously present in the scene, and the background may also move due to camera motion. The target is &lt;strong&gt;to separate different motions&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;31-光流法-optical-flow&quot;&gt;3.1 光流法 (optical flow)&lt;/h4&gt;
+
+&lt;p&gt;光流是一种可以观察到的目标的运行信息。当运动目标和摄像头发生相对运动，运动目标表明所携带的光学特征就能为我们带来目标的运动信息。光流就是运动目标在成像平面上像素点运动的随机速度。是非常&lt;code class=&quot;highlighter-rouge&quot;&gt;经典（古老）&lt;/code&gt;基于运动的目标检测方法。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Optical flow or optic flow is the pattern of apparent motion of objects, surfaces, and edges in a visual scene caused by the relative motion between an observer and a scene.[1][2] The concept of optical flow was introduced by the American psychologist James J. Gibson in the 1940s to describe the visual stimulus provided to animals moving through the world.[3] Gibson stressed the importance of optic flow for affordance perception, the ability to discern possibilities for action within the environment. Followers of Gibson and his ecological approach to psychology have further demonstrated the role of the optical flow stimulus for the perception of movement by the observer in the world; perception of the shape, distance and movement of objects in the world; and the control of locomotion.[4]&lt;/p&gt;
+
+  &lt;p&gt;The term optical flow is also used by roboticists, encompassing related techniques from image processing and control of navigation including motion detection, object segmentation, time-to-contact information, focus of expansion calculations, luminance, motion compensated encoding, and stereo disparity measurement.[5][6]&lt;/p&gt;
+
+  &lt;p&gt;from &lt;a href=&quot;https://en.wikipedia.org/wiki/Optical_flow&quot;&gt;wikipedia/Optical_flow&lt;/a&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;The dense optical flow is often used for &lt;strong&gt;Motion Segmentation(运动分割)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;David J. Fleet, &lt;strong&gt;Optical Flow Estimation&lt;/strong&gt;, chapter15, &lt;code class=&quot;highlighter-rouge&quot;&gt;2005&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;200+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Stefan Roth, &lt;strong&gt;On the spatial statistics of optical flow&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2005&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;260+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;董颖, &lt;strong&gt;基于光流场的视频运动检测&lt;/strong&gt;, 山东大学硕士论文, &lt;code class=&quot;highlighter-rouge&quot;&gt;2008&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;58&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;裴巧娜，&lt;strong&gt;基于光流法的运动目标检测与跟踪技术&lt;/strong&gt;，北方工业大学硕士论文，2009, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;107&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;MathWorks: &lt;a href=&quot;https://cn.mathworks.com/help/imaq/examples/live-motion-detection-using-optical-flow.html&quot;&gt;Live Motion Detection Using Optical Flow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;32--运动竞争-motion-competition&quot;&gt;3.2  运动竞争 (Motion Competition)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daniel Cremers, &lt;strong&gt;Motion Competition: A Variational Approach to Piecewise Parametric Motion Segmentation&lt;/strong&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;2005&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;260+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; -  We present a novel variational approach for segmenting the image plane into a set of regions of parametric motion on the basis of two consecutive frames from an image sequence. Our model is based on a conditional probability for the spatio-temporal image gradient, given a particular velocity model, and on a geometric prior on the estimated motion field favoring motion boundaries of minimal length. Exploiting the Bayesian framework, we derive a cost functional which depends on parametric motion models for each of a set of regions and on the boundary separating these regions. The resulting functional can be interpreted as an extension of the Mumford-Shah functional from intensity segmentation to motion segmentation. In contrast to most alternative approaches, the problems of segmentation and motion estimation are jointly solved by continuous minimization of a single functional. Minimizing this functional with respect to its dynamic variables results in an eigenvalue problem for the motion parameters and in a gradient descent evolution for the motion discontinuity set. We propose two different representations of this motion boundary: an explicit spline-based implementation which can be applied to the motion-based tracking of a single moving object, and an implicit multiphase level set implementation which allows for the segmentation of an arbitrary number of multiply connected moving objects. Numerical results both for simulated ground truth experiments and for real-world sequences demonstrate the capacity of our approach to segment objects based exclusively on their relative motion.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;33-decolor&quot;&gt;3.3 DECOLOR&lt;/h4&gt;
+
+&lt;p&gt;DEtecting Contiguous Outliers in the LOw-rank Representation (DECOLOR)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Xiaowei zhou, &lt;strong&gt;Moving object detection by detecting contiguous outliers in the low-rank representation&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;200+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; — Object detection is a fundamental step for automated video analysis in many vision applications. Object detection in a video
+is usually performed by object detectors or background subtraction techniques. Often, an object detector requires manually labeled
+examples to train a binary classifier, while background subtraction needs a training sequence that contains no objects to build a
+background model. To automate the analysis, object detection without a separate training phase becomes a critical task. People have
+tried to tackle this task by using motion information. But existing motion-based methods are usually limited when coping with complex
+scenarios such as nonrigid motion and dynamic background. In this paper, we show that the above challenges can be addressed in a
+unified framework named DEtecting Contiguous Outliers in the LOw-rank Representation (DECOLOR). This formulation integrates
+object detection and background learning into a single process of optimization, which can be solved by an alternating algorithm
+efficiently. We explain the relations between DECOLOR and other sparsity-based methods. Experiments on both simulated data and
+real sequences demonstrate that DECOLOR outperforms the state-of-the-art approaches and it can work effectively on a wide range of
+complex scenarios.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Index Terms&lt;/em&gt; — Moving object detection, low-rank modeling, Markov Random Fields, motion segmentation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;34-long-term-video-analysis&quot;&gt;3.4 Long Term Video Analysis&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Peter Ochs, &lt;strong&gt;Segmentation of Moving Objects by Long Term Video Analysis&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;130+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; — Motion is a strong cue for unsupervised object-level grouping. In this paper, we demonstrate that motion will be exploited
+most effectively, if it is regarded over larger time windows. Opposed to classical two-frame optical flow, point trajectories that span
+hundreds of frames are less susceptible to short-term variations that hinder separating different objects. As a positive side effect, the
+resulting groupings are temporally consistent over a whole video shot, a property that requires tedious post-processing in the vast
+majority of existing approaches. We suggest working with a paradigm that starts with semi-dense motion cues first and that fills up
+textureless areas afterwards based on color. This paper also contributes the Freiburg-Berkeley motion segmentation (FBMS) dataset,
+a large, heterogeneous benchmark with 59 sequences and pixel-accurate ground truth annotation of moving objects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Index Terms&lt;/em&gt; — Motion segmentation, point trajectories, variational methods&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;4-其他方法&quot;&gt;4. 其他方法&lt;/h3&gt;
+
+&lt;h4 id=&quot;41-运动历史图像-motion-history-image-mhi&quot;&gt;4.1 运动历史图像 （motion history image, MHI）&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;James W. Davis, &lt;strong&gt;Hierarchical Motion History Images for Recognizing Human Motion&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2001&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;170+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;MAR Ahad, &lt;strong&gt;Motion history image: its variants and applications&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2012&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;170+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The motion history image (MHI) is a static image template helps in understanding the motion location and path as it progresses.[1] In MHI, the temporal motion information is collapsed into a single image template where intensity is a function of recency of motion. Thus, the MHI pixel intensity is a function of the motion history at that location, where brighter values correspond to a more recent motion. Using MHI, moving parts of a video sequence can be engraved with a single image, from where one can predict the motion flow as well as the moving parts of the video action.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;Some important features of the MHI representation are:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;It represents motion sequence in a compact manner. In this case, the silhouette sequence is condensed into a grayscale image, where dominant motion information is preserved.&lt;/li&gt;
+    &lt;li&gt;MHI can be created and implemented in low illumination conditions where the structure cannot be easily detected otherwise.&lt;/li&gt;
+    &lt;li&gt;The MHI representation is not so sensitive to silhouette noises, holes, shadows, and missing parts.&lt;/li&gt;
+    &lt;li&gt;The gray-scale MHI is sensitive to the direction of motion because it can demonstrate the flow direction of the motion.&lt;/li&gt;
+    &lt;li&gt;It keeps a history of temporal changes at each pixel location, which then decays over time.&lt;/li&gt;
+    &lt;li&gt;The MHI expresses the motion flow or sequence by using the intensity of every pixel in a temporal manner.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;from &lt;a href=&quot;https://en.wikipedia.org/wiki/Motion_History_Images&quot;&gt;wikipedia/Motion_History_Images&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;recent-papers&quot;&gt;Recent papers&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pierre-Luc St-Charles, &lt;strong&gt;SuBSENSE: A Universal Change Detection Method With Local Adaptive Sensitivity&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;80+&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;survey&quot;&gt;Survey&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;W Hu, &lt;strong&gt;A survey on visual surveillance of object motion and behaviors&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2004&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;2300+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;M Piccardi, &lt;strong&gt;Background subtraction techniques: A review&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2004&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;1900+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Thomas B. Moeslund, &lt;strong&gt;A survey of advances in vision-based human motion capture and analysis&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2006&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;2400+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;S Brutzer, &lt;strong&gt;Evaluation of Background Subtraction Techniques for Video Surveillance&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2011&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;400+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;A Sobral, &lt;strong&gt;A comprehensive review of background subtraction algorithms evaluated with synthetic and real videos&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;200+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;T Bouwmans, &lt;strong&gt;Traditional and recent approaches in background modeling for foreground detection  An overview&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt;, cited by &lt;code class=&quot;highlighter-rouge&quot;&gt;180+&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;librarysoftware&quot;&gt;Library/Software&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Background subtraction Library&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/andrewssobral/bgslibrary&quot;&gt;&lt;strong&gt;BGSLibrary&lt;/strong&gt;&lt;/a&gt;: The BGS Library (A. Sobral, Univ. La Rochelle, France) provides a C++ framework to perform background subtraction algorithms. The code works either on Windows or on Linux. Currently the library offers more than 30 BGS algorithms.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/andrewssobral/lrslibrary&quot;&gt;&lt;strong&gt;LRS Library&lt;/strong&gt;&lt;/a&gt; - Low-Rank and Sparse tools for Background Modeling and Subtraction in Videos. The LRSLibrary (A. Sobral, Univ. La Rochelle, France) provides a collection of low-rank and sparse decomposition algorithms in MATLAB. The library was designed for motion segmentation in videos, but it can be also used or adapted for other computer vision problems. Currently the LRSLibrary contains more than 100 matrix-based and tensor-based algorithms.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Other libary&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codeproject.com/Articles/10248/Motion-Detection-Algorithms&quot;&gt;&lt;strong&gt;Motion Detection Algorithms&lt;/strong&gt;&lt;/a&gt;: There are many approaches for motion detection in a continuous video stream. All of them are based on comparing of the current video frame with one from the previous frames or with something that we’ll call background. In this article, I’ll try to describe some of the most common approaches.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;目标检测中背景建模方法 &lt;a href=&quot;http://www.cnblogs.com/ronny/archive/2012/04/12/2444053.html&quot;&gt;http://www.cnblogs.com/ronny/archive/2012/04/12/2444053.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A video database for testing change detection algorithms &lt;a href=&quot;http://www.changedetection.net/&quot;&gt;http://www.changedetection.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 06 Apr 2017 16:40:25 +0800</pubDate>
+        <link>http://localhost:4000/2017/04/06/motion-detection/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/06/motion-detection/</guid>
+        
+        <category>Motion Detection</category>
+        
+        <category>Computer Vision</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Markdown简介</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt; ：支持高亮代码块、&lt;em&gt;LaTeX&lt;/em&gt; 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#markdown简介&quot; id=&quot;markdown-toc-markdown简介&quot;&gt;Markdown简介&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#代码块&quot; id=&quot;markdown-toc-代码块&quot;&gt;代码块&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#latex-公式&quot; id=&quot;markdown-toc-latex-公式&quot;&gt;LaTeX 公式&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#表格&quot; id=&quot;markdown-toc-表格&quot;&gt;表格&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#流程图&quot; id=&quot;markdown-toc-流程图&quot;&gt;流程图&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#复选框&quot; id=&quot;markdown-toc-复选框&quot;&gt;复选框&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#脚注footnote&quot; id=&quot;markdown-toc-脚注footnote&quot;&gt;脚注（footnote）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#引用方式&quot; id=&quot;markdown-toc-引用方式&quot;&gt;引用方式：&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#下划线&quot; id=&quot;markdown-toc-下划线&quot;&gt;下划线&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#images&quot; id=&quot;markdown-toc-images&quot;&gt;Images&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#内联方式&quot; id=&quot;markdown-toc-内联方式&quot;&gt;内联方式：&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#引用方式-1&quot; id=&quot;markdown-toc-引用方式-1&quot;&gt;引用方式：&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#反馈与建议&quot; id=&quot;markdown-toc-反馈与建议&quot;&gt;反馈与建议&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markdown简介&quot;&gt;Markdown简介&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— &lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot;&gt;维基百科&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为&lt;strong&gt;粗体&lt;/strong&gt;或者&lt;em&gt;斜体&lt;/em&gt;，创建一个&lt;a href=&quot;http://www.example.com&quot;&gt;链接&lt;/a&gt;或一个脚注&lt;sup id=&quot;fnref:demo&quot;&gt;&lt;a href=&quot;#fn:demo&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。下面列举了几个高级功能，更多语法请按&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + /&lt;/code&gt;查看帮助。&lt;/p&gt;
+
+&lt;h3 id=&quot;代码块&quot;&gt;代码块&lt;/h3&gt;
+
+&lt;p&gt;using &lt;code class=&quot;highlighter-rouge&quot;&gt;molokai.css&lt;/code&gt;  by 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;rougify style molokai &amp;gt; css/syntax.css&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Add the code in &lt;code class=&quot;highlighter-rouge&quot;&gt;syntax.css&lt;/code&gt; to change the font and font-size&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#F5F5F5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#272822&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;/*#1b1d1e  f8f8f2  272822*/&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Consolas'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@requires_authorization&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;somefunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'''A docstring'''&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# interesting&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Greater'&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'''interpreter
+... prompt'''&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json: &lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;matlab&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-matlab highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;...&lt;/span&gt;
+                 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;% The EIG function is applied to each of the horizontal 'slices' of A.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;eig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;squeeze&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:,:)))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ReqStrSugRepr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bases&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attrd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ReqStrSugRepr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bases&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attrd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'__str__'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attrd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Class requires overriding of __str__()&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'__repr__'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attrd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;warn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+                &lt;span class=&quot;s&quot;&gt;'Class suggets overrding of __repr__()&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;stacklevel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;c/c++&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;int a = %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;JavaBeans.People.Administor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AcceptMember&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HttpServlet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * 
+     * @throws ServletException if an error occurred
+     * @throws IOException if an error occurred
+     */&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;doGet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HttpServletRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HttpServletResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ServletException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setContentType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/html&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;doPost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;latex-公式&quot;&gt;LaTeX 公式&lt;/h3&gt;
+
+&lt;p&gt;可以创建行内公式，例如 &lt;script type=&quot;math/tex&quot;&gt;\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N&lt;/script&gt;。或者块级公式：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}&lt;/script&gt;
+
+&lt;h3 id=&quot;表格&quot;&gt;表格&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First cell&lt;/td&gt;
+      &lt;td&gt;Second cell&lt;/td&gt;
+      &lt;td&gt;Third cell&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;Third&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Fourth&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Item&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Value&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Qty&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Computer&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1600 USD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Phone&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12 USD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Pipe&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 USD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;234&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;流程图&quot;&gt;流程图&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: Start
+e=&amp;gt;end
+op=&amp;gt;operation: My Operation
+cond=&amp;gt;condition: Yes or No?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以及时序图:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-sequence&quot;&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;想了解更多，请查看&lt;strong&gt;流程图&lt;/strong&gt;&lt;a href=&quot;http://adrai.github.io/flowchart.js/&quot;&gt;语法&lt;/a&gt;以及&lt;strong&gt;时序图&lt;/strong&gt;&lt;a href=&quot;http://bramp.github.io/js-sequence-diagrams/&quot;&gt;语法&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;复选框&quot;&gt;复选框&lt;/h3&gt;
+
+&lt;p&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;- [ ]&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;- [x]&lt;/code&gt; 语法可以创建复选框，实现 todo-list 等功能。例如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[x] 已完成事项&lt;/li&gt;
+  &lt;li&gt;[ ] 待办事项1&lt;/li&gt;
+  &lt;li&gt;[ ] 待办事项2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在&lt;strong&gt;马克飞象&lt;/strong&gt;中修改 Markdown 原文才可生效。下个版本将会全面支持。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;质能方程公式：&lt;script type=&quot;math/tex&quot;&gt;E=mc^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\min_{x,y} \sum_{i=1}^{N} (x_i+ 10 + y_i)^2&lt;/script&gt;
+
+&lt;h3 id=&quot;脚注footnote&quot;&gt;脚注（footnote）&lt;/h3&gt;
+
+&lt;p&gt;实现方式如下:&lt;/p&gt;
+
+&lt;p&gt;比如PHP&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Markdown Extra &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 是这样的。&lt;/p&gt;
+
+&lt;h3 id=&quot;引用方式&quot;&gt;引用方式：&lt;/h3&gt;
+&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://maxiang.info/client_zh&quot;&gt;Google&lt;/a&gt; than from &lt;a href=&quot;https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://adrai.github.io/flowchart.js/&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;下划线&quot;&gt;下划线&lt;/h3&gt;
+
+&lt;p&gt;—下划线—&lt;/p&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;h4 id=&quot;内联方式&quot;&gt;内联方式：&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/lenanoise.jpg&quot; alt=&quot;lenaNoise&quot; title=&quot;lenaNoise&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;引用方式-1&quot;&gt;引用方式：&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/img/mona-leber-final.jpg&quot; alt=&quot;alt text&quot; title=&quot;mona-leber&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;反馈与建议&quot;&gt;反馈与建议&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;微博：&lt;a href=&quot;http://weibo.com/u/2788354117&quot;&gt;@马克飞象&lt;/a&gt;，&lt;a href=&quot;http://weibo.com/ggock&quot; title=&quot;开发者个人账号&quot;&gt;@GGock&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;邮箱：&lt;a href=&quot;mailto:hustgock@gmail.com&quot;&gt;hustgock@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;感谢阅读这份帮助文档。请点击右上角，绑定印象笔记账号，开启全新的记录与分享体验吧。&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:demo&quot;&gt;
+      &lt;p&gt;这是一个示例脚注。请查阅 &lt;a href=&quot;https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes&quot;&gt;MultiMarkdown 文档&lt;/a&gt; 关于脚注的说明。 &lt;strong&gt;限制：&lt;/strong&gt; 印象笔记的笔记内容使用 &lt;a href=&quot;https://dev.yinxiang.com/doc/articles/enml.php&quot;&gt;ENML&lt;/a&gt; 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致&lt;code class=&quot;highlighter-rouge&quot;&gt;脚注&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;TOC&lt;/code&gt;无法正常点击。&amp;nbsp;&lt;a href=&quot;#fnref:demo&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Markdown是一种纯文本标记语言&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;开源笔记平台，支持Markdown和笔记直接发为博文&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 04 Apr 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/04/04/markdown_maxiang/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/04/markdown_maxiang/</guid>
+        
+        <category>markdown</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>变分消息传播模型与算法</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;关键词&lt;/strong&gt; &lt;a href=&quot;http://jmlr.csail.mit.edu/papers/volume6/winn05a/winn05a.pdf&quot;&gt;Variational Message Passing&lt;/a&gt;, 
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Bayesian_networks&quot;&gt;Bayesian networks&lt;/a&gt;, 
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Exponential_family&quot;&gt;Exponential Family&lt;/a&gt;, Sufficient Statistics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;传统的变分贝叶斯方法对模型的推导是繁琐而复杂的。J. Winn, Bishop [1] [2] 
+考虑了贝叶斯网络中的共轭指数网络 (conjugate-exponential networks) 
+提出变分消息传播 (VMP, Variational Message Passing) 。这种方法使得充分统计量与自然参数都有一个标准形式，现在该方法已经取代了手工推导，
+成为标准的变分贝叶斯推断方法。而对于非共轭指数网络 (比如混合模型) ，也能通过进一步的近似转化为标准形式。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;理论基础&quot;&gt;理论基础&lt;/h3&gt;
+
+&lt;h4 id=&quot;bayesian-networks&quot;&gt;Bayesian networks&lt;/h4&gt;
+
+&lt;p&gt;变分信息传播方法是建立在贝叶斯网络[3]上的，如图所示，对于一个节点&lt;script type=&quot;math/tex&quot;&gt;{H_j}&lt;/script&gt;,它的父节点为&lt;script type=&quot;math/tex&quot;&gt;p{a_j}&lt;/script&gt;，子节点为&lt;script type=&quot;math/tex&quot;&gt;c{h_j}&lt;/script&gt;,
+子节点&lt;script type=&quot;math/tex&quot;&gt;{x_k}&lt;/script&gt;的父节点为&lt;script type=&quot;math/tex&quot;&gt;cp_k^{(j)} \equiv p{a_k}\backslash {H_j}&lt;/script&gt;。所有节点统称为&lt;script type=&quot;math/tex&quot;&gt;{H_j}&lt;/script&gt;的马尔科夫毯，对于变分贝叶斯推理，
+我们只需要关心这个模型，&lt;script type=&quot;math/tex&quot;&gt;H&lt;/script&gt;为参数或潜在变量，其父节点为它的超参数，子节点为数据样本, co-parents为其他参数或潜在变量。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/variational_message_passing/vmp-1.png&quot; alt=&quot;贝叶斯网络 (马尔科夫毯) &quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
+&lt;center&gt; 图-1 贝叶斯网络 (马尔科夫毯) &lt;/center&gt;
+
+&lt;h4 id=&quot;exponential-family&quot;&gt;Exponential Family&lt;/h4&gt;
+
+&lt;p&gt;设&lt;script type=&quot;math/tex&quot;&gt;(X,B\|{p_\theta }:\theta \in \Theta \|)&lt;/script&gt;是可控参数统计结构，其密度函数可表示为如下形式：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{\theta}(x) = c(\theta) \exp \{ \sum\limits_{i = 1}^k c_j(\theta ){T_j}(x) \} h(x)&lt;/script&gt;
+
+&lt;p&gt;并且它的支撑&lt;script type=&quot;math/tex&quot;&gt;\{ x:{p_\theta }(x) &gt; 0\}&lt;/script&gt;不依赖于θ，则称此结构为指数型的统计结构，简称指数结构，其中的分布族为指数分布族。
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+0 &lt; c(\theta ),{c_1}(\theta ),...,{c_k}(\theta ) &lt; \infty ,{T_j}(x) %]]&gt;&lt;/script&gt;都与θ无关，且取有限值的B可测函数，k为正整数，&lt;script type=&quot;math/tex&quot;&gt;h\left( x \right) &gt; 0&lt;/script&gt;，常见指数分布族，如二项分布，二元正态分布，伽马分布。&lt;/p&gt;
+
+&lt;p&gt;对于一个条件分布，如果它能写成如下形式，则称它属于指数分布族，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(X\|Y) = \exp [\phi {(Y)^T}u(X) + f(X) + g(Y)]&lt;/script&gt;
+
+&lt;p&gt;其中&lt;script type=&quot;math/tex&quot;&gt;\phi (Y)&lt;/script&gt;称为自然参数 (natural parameter) 向量，&lt;script type=&quot;math/tex&quot;&gt;u(X)&lt;/script&gt;称为自然统计 (natural statistic) 向量。&lt;script type=&quot;math/tex&quot;&gt;g(Y)&lt;/script&gt;作为归一化函数使得对于任意的Y都能整合到统一的形式。指数分布族的好处是它的对数形式是可计算的并且它的状态可以用自然参数向量所概括。&lt;/p&gt;
+
+&lt;h4 id=&quot;conjugate-exponential-model&quot;&gt;Conjugate-Exponential Model&lt;/h4&gt;
+
+&lt;p&gt;当变量X关于父节点Y的条件概率分布P(X|Y)为指数分布族，且为父节点分布P(Y)的共轭先验，那么称这样的模型是共轭指数模 (Conjugate-Exponential Model) 。
+考虑共轭指数模型，其后验的每个因子与它的先验都有相同的形式，因而只需要关心参数的变化，而无需整个函数。所谓相同的形式是指属于同样的分布，
+比如都属于正态分布，伽马分布，多项式分布等。&lt;/p&gt;
+
+&lt;h4 id=&quot;sufficient-statistics&quot;&gt;Sufficient Statistics&lt;/h4&gt;
+
+&lt;p&gt;如果知道自然参数向量&lt;script type=&quot;math/tex&quot;&gt;\phi (Y)&lt;/script&gt;，那么就能找到自然统计量的期望。重写指数分布族，用&lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;作为参数，&lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt;重新参数化为&lt;script type=&quot;math/tex&quot;&gt;\tilde g&lt;/script&gt;则,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(X\|\phi ) = \exp [{\phi ^T}u(X) + f(X) + \tilde g(\phi )]&lt;/script&gt;
+
+&lt;p&gt;对&lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;积分有，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_X {\exp [{\phi ^T}u(X) + f(X) + \tilde g(\phi )]} dX = \int_X {P(X\|\phi )dX} = 1&lt;/script&gt;
+
+&lt;p&gt;然后对&lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;微分，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+\int_X {\frac{d}\exp [{\phi ^T}u(X) + f(X) + \tilde g(\phi )]} dX &amp;= \frac{d}{ d\phi}(1) = 0\\
+\int_X P(X \|\phi)\left[ u(X) + \frac{d\tilde g(\phi )}{d\phi} \right] dX &amp;= 0
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;得自然统计量的期望，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\langle u(X) \right\rangle _{P(X\|\phi )} = - \frac{d\tilde g(\phi )}{d\phi} \tag{1}&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;变分消息传播模型&quot;&gt;变分消息传播模型&lt;/h3&gt;
+
+&lt;h4 id=&quot;变分分布q在共轭指数模型下的最优化&quot;&gt;变分分布Q在共轭指数模型下的最优化&lt;/h4&gt;
+
+&lt;p&gt;不失一般性，考虑变分分布的一个因子&lt;script type=&quot;math/tex&quot;&gt;Q\left( Y \right)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt;为马尔科夫毯上一个节点,子节点为&lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;，如图-2所示&lt;/p&gt;
+
+&lt;!-- ![马尔科夫毯](/img/posts/variational_message_passing/vmp-2.png &quot;马尔科夫毯&quot;) --&gt;
+
+&lt;!-- width=&quot;300&quot; height=&quot;300&quot; --&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/variational_message_passing/vmp-2.png&quot; alt=&quot;马尔科夫毯&quot; width=&quot;40%&quot; /&gt;&lt;/p&gt;
+&lt;center&gt; 图-2 马尔科夫毯&lt;/center&gt;
+
+&lt;p&gt;根据指数族条件分布的一般形式，则变量Y关于父节点的条件概率为，&lt;/p&gt;
+
+&lt;p&gt;为了更新Q(Y),需要找到(2),(3)关于除Y外其他因子的期望。对任何指数族的自然统计量u的期望都可以用自然参数向量ϕ带入 (2-19) 式得到。即对于任何变量Ａ，都可以找到&lt;script type=&quot;math/tex&quot;&gt;{\left\langle u_A(A) \right\rangle _Q}&lt;/script&gt;。特别的，当A为被观测量时，我们能直接计算得&lt;script type=&quot;math/tex&quot;&gt;{\left\langle {u_A(A)} \right\rangle_Q} = u_A(A)&lt;/script&gt;。&lt;/p&gt;
+
+&lt;p&gt;从(3)，(4)式可以看出&lt;script type=&quot;math/tex&quot;&gt;\ln P(X\|Y,c{p_Y})&lt;/script&gt;与&lt;script type=&quot;math/tex&quot;&gt;u_X(X),u_Y(Y)&lt;/script&gt;分布成线性关系。而共轭要求对数条件分布也会与所有的&lt;script type=&quot;math/tex&quot;&gt;{u_Z}(Z)&lt;/script&gt;成线性，&lt;script type=&quot;math/tex&quot;&gt;Z \in c{p_Y}&lt;/script&gt;。因而看得出&lt;script type=&quot;math/tex&quot;&gt;\ln P(X\|Y,c{p_Y})&lt;/script&gt;是一个关于u的多线性函数。&lt;/p&gt;
+
+&lt;p&gt;考虑Y的变分更新方程，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+\ln Q_Y^*(Y) &amp;= {\left\langle \phi_Y{(p{a_Y})^T}u_Y(Y) + {f_Y}(Y) + g_Y(p{a_Y}) \right\rangle _{\sim Q(Y)}} \\
+&amp;\quad +\sum\limits_{k \in c{h_Y}} \left\langle \phi_{XY}{(X,c{p_Y})^T}u_Y(Y) + \lambda (X,c{p_Y}) \right\rangle_{\sim Q(Y)} + const. \\
+&amp;= {\left[ {\langle \phi_Y{(p{a_Y})} \rangle}_{\sim Q(Y)} + \sum\limits_{k \in ch_Y} {\langle \phi_{XY{(X,cp_Y)}} \rangle }_{\sim Q(Y)} \right]^T}{u_Y(Y)} + {f_Y}(Y) + const.\\
+&amp;= \left[ {\phi_Y^*} \right]^T u_Y(Y) + {f_Y}(Y) + const.\\
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;其中，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\phi_Y^* = \left\langle {\phi_Y{(p{a_Y})^T}} \right\rangle _{\sim Q(Y)} + \sum\limits_{k \in c{h_Y}} \left\langle {\phi_{XY}{(X,c{p_Y})^T}} \right\rangle_{\sim Q(Y)} \tag{2}&lt;/script&gt;
+
+&lt;p&gt;正如以上所解释的，&lt;script type=&quot;math/tex&quot;&gt;\phi_Y&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;\phi_{XY}&lt;/script&gt;的期望都是相应的自然统计向量期望的多线性函数。因而有可能将以上期望重新参数化为&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\tilde{\phi_Y}\left( \left\{ \left. \left\langle u_i \right\rangle  \right\} \right._{i \in p{a_Y}} \right) = \left\langle \phi_Y(p{a_Y}) \right\rangle&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\tilde{\phi_{XY}}(\langle u_X\rangle ,\{\langle u_j \rangle\}_{j \in cp_Y}) = \langle \phi_{XY}(X,c{p_Y}) \rangle&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;举例&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;如果X服从&lt;script type=&quot;math/tex&quot;&gt;N(Y,{\beta ^{ - 1}})&lt;/script&gt;，那么&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{equation}
+\begin{split}
+\ln P(X\|Y,\beta ) &amp; = {\left[ \begin{array}{l}\beta Y\\ - \beta/2\end{array} \right]^T}\left[ \begin{array}{l}X{X^2}\end{array} \right] + \frac{1}{2}(\ln \beta - \beta {Y^2} - \ln 2\pi)\\
+ &amp; = {\left[ \begin{array}{l}\beta X\\- \beta /2\end{array} \right]^T}\left[ \begin{array}{l}Y{Y^2}\end{array} \right] +\frac{1}{2}(\ln \beta - \beta {X^2} - \ln 2\pi )\\
+ &amp; = {\left[ \begin{array}{c}-\frac{1}{2}(X - Y)^2\\\frac{1}{2} \end{array}\right]^T}\left[\begin{array}{l} \beta\\\ln \beta\end{array} \right] - \frac{1}{2}\ln 2\pi
+\end{split}
+\end{equation} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;其中&lt;script type=&quot;math/tex&quot;&gt;u_X(X) = \left[ \begin{array}{l}X\\{X^2}\end{array} \right]&lt;/script&gt;,&lt;script type=&quot;math/tex&quot;&gt;u_Y(Y) = \left[ \begin{array}{l}Y\\{Y^2}\end{array} \right]&lt;/script&gt;,&lt;script type=&quot;math/tex&quot;&gt;{u_\beta}(\beta) = \left[ \begin{array}{l}\beta \\\ln \beta \end{array} \right].&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\phi_{XY}(X,\beta ) = \left[ \begin{array}{l}\beta X\\ - \beta /2\end{array} \right]&lt;/script&gt;可以重参数化为&lt;script type=&quot;math/tex&quot;&gt;{\tilde{\phi} _{XY}}(\langle u_X \rangle ,\langle {u_\beta} \rangle ) = \left[ \begin{array}{l} \langle {u_\beta} \rangle_{0} \langle u_X \rangle_{0} \\ - \langle {u_\beta} \rangle_{0} /2 \end{array} \right]&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;其中&lt;script type=&quot;math/tex&quot;&gt;\langle {u_\beta} \rangle_{0}&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;\langle u_X \rangle_{0}&lt;/script&gt;分别表示&lt;script type=&quot;math/tex&quot;&gt;\langle {u_\beta} \rangle&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;\langle u_X \rangle&lt;/script&gt;的第一个元素。&lt;/p&gt;
+
+&lt;h4 id=&quot;变分消息传播模型-1&quot;&gt;变分消息传播模型&lt;/h4&gt;
+
+&lt;p&gt;在贝叶斯网络中,由于Q可因式分解，则有&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+L(Q) &amp;= \left\langle {\ln P(H,V)} \right\rangle - \left\langle {Q(H)} \right\rangle\\
+ &amp;= \sum\limits_i {\left\langle {\ln P({X_i}\|p{a_i})} \right\rangle - \sum\limits_{i \in H} {\left\langle {\ln {Q_i}({H_i})} \right\rangle } } \\
+&amp;\overset{\text{def}}{=} \sum\limits_i L_i
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;L\left( Q \right)&lt;/script&gt;被分解为每一个节点上的贡献值
+&lt;script type=&quot;math/tex&quot;&gt;\left\{  L_i \right\}&lt;/script&gt;，如节点&lt;script type=&quot;math/tex&quot;&gt;{H_j}&lt;/script&gt;的贡献值为&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+{L_j} &amp;= \left\langle {\ln P({H_i}\|p{a_j})} \right\rangle - \left\langle {\ln {Q_i}({H_i})} \right\rangle\\
+&amp; =\langle {\phi _j}(p{a_j})^T \rangle \langle u_j(H_j) \rangle + \langle {f_j}(H_j) \rangle  
++ \langle g_j(p{a_j}) \rangle - \left[ {\phi _j^*}^T \langle u_j(H_j) \rangle + \langle {f_j}(H_j) \rangle + \tilde{g}_j(\phi _j^*) \right]\\
+&amp; ={\left( {\langle {\phi_j(p{a_j})} \rangle - \phi _j^*} \right)^T}\langle {u_j({H_j})} \rangle + \langle {g_j(p{a_j})} \rangle - \tilde{g}_j(\phi _j^*)
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;注意到&lt;script type=&quot;math/tex&quot;&gt;\left\langle {\phi_j(p{a_j})} \right\rangle&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;\phi _j^*&lt;/script&gt;在求&lt;script type=&quot;math/tex&quot;&gt;{H_j}&lt;/script&gt;的后验分布时就已经计算了；&lt;script type=&quot;math/tex&quot;&gt;\left\langle {u_j({H_j})} \right\rangle&lt;/script&gt;在&lt;script type=&quot;math/tex&quot;&gt;{H_j}&lt;/script&gt;传出消息的时候也已经计算了，这样降低了下界的计算成本。&lt;/p&gt;
+
+&lt;p&gt;特别地，对于每个观测变量&lt;script type=&quot;math/tex&quot;&gt;{V_k}&lt;/script&gt;对下界的贡献值则更简单，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;{L_k} = \left\langle {\ln P({V_k}\|p{a_k})} \right\rangle = {\left\langle {\phi_j(p{a_j})} \right\rangle ^T}{u_k}({V_k}) + {f_k}({V_k}) + {\tilde g_k}\left( {\left\langle {\phi_j(p{a_j})} \right\rangle } \right)&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;变分消息传播算法&quot;&gt;变分消息传播算法&lt;/h3&gt;
+
+&lt;h4 id=&quot;变分消息的定义&quot;&gt;变分消息的定义&lt;/h4&gt;
+
+&lt;p&gt;来自父节点的消息 (Message from parents) ：父节点传播给子节点的消息只是自然统计量的期望：&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\begin{equation} 
+m_{Y \to X} = \left\langle {u_Y}\right\rangle.
+\end{equation} \tag{3}&lt;/script&gt;  &lt;/p&gt;
+
+&lt;p&gt;消息传播给父节点 (Message to parents) ：依赖于X之前从Y的co-parents接收到的消息；对任何节点A，如果A是被观测量，那么&lt;script type=&quot;math/tex&quot;&gt;\left\langle {u_A} \right\rangle = u_A&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;m_{X \to Y} = \tilde{\phi}_{XY}\left( \left\langle u_X \right\rangle ,{\left\{ m_{i \to X} \right\}}_{i \in c{p_Y}} \right) \tag{4}&lt;/script&gt;
+
+&lt;p&gt;用Y接收来自父节点与子节点的所有消息来计算&lt;script type=&quot;math/tex&quot;&gt;\phi_Y^*&lt;/script&gt;，然后我们就能通过计算更新后的自然参数向量&lt;script type=&quot;math/tex&quot;&gt;\phi_Y^*&lt;/script&gt;来找到Y的更新后的后验分布&lt;script type=&quot;math/tex&quot;&gt;Q_Y^*&lt;/script&gt;，&lt;script type=&quot;math/tex&quot;&gt;\phi_Y^*&lt;/script&gt;的计算公式如下，&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\phi_Y^* = \tilde{\phi_Y}\left( \left\{ m_{i \to Y} \right\}_{i \in p{a_Y}} \right) + \sum\limits_{j \in c{h_Y}} m_{j \to Y} \tag{5}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;该式与 (2) 式一致。从 (1) 式可以看出自然统计量的期望&lt;script type=&quot;math/tex&quot;&gt;{\left\langle {u_Y} \right\rangle _{Q_Y^*}}&lt;/script&gt;是&lt;script type=&quot;math/tex&quot;&gt;Q_Y^*&lt;/script&gt;的单一函数，这样我们就可以用它来计算期望的新值。变分消息传播算法通过迭代的消息传播来最优化变分分布Q.&lt;/p&gt;
+
+&lt;h4 id=&quot;算法描述&quot;&gt;算法描述&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Step1&lt;/strong&gt;. 通过初始化相关的矩向量&lt;script type=&quot;math/tex&quot;&gt;\left\langle {u_j({X_j})} \right\rangle&lt;/script&gt;来初始化每个因子分布&lt;script type=&quot;math/tex&quot;&gt;{Q_j}&lt;/script&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Step2.&lt;/strong&gt; 对于每一个节点&lt;script type=&quot;math/tex&quot;&gt;{X_j}&lt;/script&gt;，&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1)   从父节点和子节点接收 (3),(4) 式所定义的消息。 前提是子节点已经从&lt;script type=&quot;math/tex&quot;&gt;{X_j}&lt;/script&gt;的co-parents接收到消息。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2)  使用 (5) 式更新自然参数向量&lt;script type=&quot;math/tex&quot;&gt;\phi _j^*&lt;/script&gt;；&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3)  根据新的参数向量更新距向量&lt;script type=&quot;math/tex&quot;&gt;\left\langle {u_j({X_j})} \right\rangle&lt;/script&gt;；&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Step3.&lt;/strong&gt; 计算新的下界&lt;script type=&quot;math/tex&quot;&gt;L(Q)&lt;/script&gt;;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Step4.&lt;/strong&gt; 如果经过数次迭代已经无法增加下界值，或者各边缘分布达到稳定值，则结束；否则回到&lt;strong&gt;Step2&lt;/strong&gt;。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;举例&lt;/strong&gt;：对于单一高斯模型消息传播过程如下图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/variational_message_passing/vmp-3.png&quot; alt=&quot;消息传播过程&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;图-3 单一高斯模型消息传播过程&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;混合模型&quot;&gt;混合模型&lt;/h3&gt;
+
+&lt;p&gt;到目前为止只考虑了来自指数族的分布。而通常来讲，混合模型并非来自指数族，比如高斯混合模型，通常需要将混合分布转化为指数族分布形式。&lt;/p&gt;
+
+&lt;p&gt;考虑高斯混合模型，通常有如下形式，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(X\|\{ \pi_k\} ,\{ \theta_k\} ) = \sum\limits_{k = 1}^K {\pi_kP_k(X\|\theta_k)}&lt;/script&gt;
+
+&lt;p&gt;可以引入一个离散型潜在变量λ,表示每个观测点是属于哪个单高斯分布。重写分布函数为：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(X\|\lambda ,\{ \theta_k\} ) = \sum\limits_{k = 1}^K P_k{(X\|\theta_k)}^{\delta_{\lambda k}}&lt;/script&gt;
+
+&lt;p&gt;加入该λ变量后该分布属于指数分布族，可写成&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\ln P(X\|\lambda ,\{ \theta_k\} ) = \sum\limits_k {\delta (\lambda ,k)\left[ {\phi_k{(\theta_k)^T}{u_k}(X) + {f_k}(X) + {g_k}(\theta_k)} \right]}&lt;/script&gt;
+
+&lt;p&gt;如果X有子节点Z，那么共轭条件要求每一个成分都有相同的自然统计向量，
+统一定义为&lt;script type=&quot;math/tex&quot;&gt;{u_1}(X) = {u_2}(X) = ... = {u_K}(X)\overset{\text{def}}{=}u_X(X)&lt;/script&gt;。
+另外，我们可能要使模型的其他部分也有相同的形式，虽然不要求共轭，即&lt;script type=&quot;math/tex&quot;&gt;{f_1} = {f_2} = ... = {f_K}\overset{\text{def}}{=} {f_X}&lt;/script&gt;。
+在这种情况下，混合模型的每个成分都有相同的形式，可写成，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+\ln P(X\|\lambda ,\{ \theta_k\} ) &amp;= {\left[ {\sum\limits_k {\delta (\lambda ,k)\phi_k(\theta_k)} } \right]^T}u_X(X) 
++ {f_X}(X) + \sum\limits_k {\delta (\lambda ,k){g_k}(\theta_k)}\\
+&amp;={\phi _X}{(\lambda ,\{ \theta_k\} )^T}u_X(X) + {f_X}(X) + {\tilde g_X}({\phi _X}(\lambda ,\{ \theta_k\} )) 
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;其中定义&lt;script type=&quot;math/tex&quot;&gt;{\phi _X} = \sum\limits_k {\delta (\lambda ,k)\phi_k(\theta_k)}&lt;/script&gt;。这样对于每个成分来说条件分布都有了
+与指数分布族一样的形式，便可以应用变分消息传播算法。&lt;/p&gt;
+
+&lt;p&gt;从某个节点X传播个子节点的消息为&lt;script type=&quot;math/tex&quot;&gt;\left\langle {u_X(X)} \right\rangle&lt;/script&gt;，而这是通过混合参数向量&lt;script type=&quot;math/tex&quot;&gt;{\phi _X}(\lambda ,\{ \theta_k\} )&lt;/script&gt;计算的。
+相似地，节点X到父亲节点&lt;script type=&quot;math/tex&quot;&gt;\theta_k&lt;/script&gt;的消息是那些以它为父节点的子节点发出的，而节点X中哪些属于&lt;script type=&quot;math/tex&quot;&gt;\theta_k&lt;/script&gt;是由指标变量&lt;script type=&quot;math/tex&quot;&gt;Q(\lambda = k)&lt;/script&gt;的后验确定的。最后，从X到的消息是一个K维向量，其中第k个元素为&lt;script type=&quot;math/tex&quot;&gt;\left\langle {\ln P_k(X\|\theta_k)} \right\rangle&lt;/script&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;算法分析&quot;&gt;算法分析&lt;/h3&gt;
+
+&lt;h4 id=&quot;vb算法与em算法比较&quot;&gt;VB算法与EM算法比较&lt;/h4&gt;
+
+&lt;p&gt;EM算法计算随机变量 (或归类于参数) 后验分布的点估计，但估计隐变量的真实后验分布。用这些参数的众数作为点估计，无任何其他信息。
+而在VB算法作为一个分布估计 (Distributional Approximation) 方法，计算所有变量的真实后验分布的估计，包括参数和隐变量。
+在贝叶斯推断中，计算点估计一般使用常用的均值而非众数。与此同时，应该注意的是计算参数在VB中与EM有不同的意义。
+EM算法计算贝叶斯网络本身的参数的最优值。而VB计算用于近似参数和隐变量的贝叶斯网络的参数最佳值，VB会先找一个合适的参数分布，
+通常是一个先验分布的形式，然后计算这个分布的参数值，更准确说是超参数，最后得到联合分布的各参数的分布。&lt;/p&gt;
+
+&lt;h4 id=&quot;算法复杂性&quot;&gt;算法复杂性&lt;/h4&gt;
+
+&lt;p&gt;变分贝叶斯估计方法是众多概率函数估计技术之一。还有许多其他被广泛使用的估计算法，一般分为确定性 (deterministic) 和随机性 (stochastic) 的方法，比如基于点估计的极大似然估计、极大后验概率估计，基于局部估计的Laplace估计，基于spline估计的B-样条估计，还有经验性估计，利用随机采用的如MCMC方法。变分贝叶斯方法作为平均场估计，能够在计算复杂度和精度之间保持一个良好的关系，如图-4所示。变分贝叶斯方法主要的计算压力在于它的IVB算法——一系列为求取变分边缘概率相关的矩估计而进行的迭代。如果只关心计算代价而对精度要求不高，那么可以用简单的估计方法来代替变分边缘概率，或者减少估计迭代的次数，这样变分估计的路径将沿着虚线往下。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/variational_message_passing/vmp-4.png&quot; alt=&quot;VB方法的精度与复杂性之间的关系&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;图-4 VB方法的精度与复杂性之间的关系&lt;/center&gt;
+
+&lt;h3 id=&quot;小结&quot;&gt;小结&lt;/h3&gt;
+
+&lt;p&gt;本文对基于贝叶斯网络的变分消息传播方法从理论基础到算法流程展开论述。
+特别地与EM算法进行比较，分析了变分贝叶斯方法的算法复杂性。
+下一篇将给出高斯混合模型的例子，以及MATLAB实现源代码。&lt;/p&gt;
+
+&lt;h3 id=&quot;参考文献&quot;&gt;参考文献&lt;/h3&gt;
+
+&lt;p&gt;[1] John M. Winn, M. Bishop, Variational Message Passing, Journal of Machine Learning Research, 2004&lt;/p&gt;
+
+&lt;p&gt;[2] John M. Winn, Variational Message Passing and its Applications, University of Cambridge, 2003&lt;/p&gt;
+
+&lt;p&gt;[3] Michael I. Jordan, An Introduction to Variational Methods for Graphical Models, Machine Learning, 1999&lt;/p&gt;
+
+&lt;p&gt;完整文章下载: &lt;a href=&quot;/pdf/intro_vb_2013.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Mar 2013 09:47:14 +0800</pubDate>
+        <link>http://localhost:4000/2013/03/23/variational-message-passing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/03/23/variational-message-passing/</guid>
+        
+        <category>Bayesian Networks</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Variational Inference</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>变分贝叶斯算法理解与推导</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;关键词&lt;/strong&gt;: 贝叶斯推断，平均场理论，变分估计，贝叶斯推断，KL散度，确定性估计&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;上世纪90年代，变分推断在概率模型上得到迅速发展，在贝叶斯框架下一般的变分法由Attias的两篇文章给出。Matthew J.Beal的博士论文《Variational Algorithms for Approximate Bayesian Inference》中有比较充分地论述，作者将其应用于隐马尔科夫模型，混合因子分析，线性动力学，图模型等。变分贝叶斯是一类用于贝叶斯估计和机器学习领域中近似计算复杂（intractable）积分的技术。它主要应用于复杂的统计模型中，这种模型一般包括三类变量：观测变量(observed variables, data)，未知参数（parameters）和潜变量（latent variables）。在贝叶斯推断中，参数和潜变量统称为不可观测变量(unobserved variables)。变分贝叶斯方法主要是两个目的:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;近似不可观测变量的后验概率，以便通过这些变量作出统计推断。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;对一个特定的模型，给出观测变量的边缘似然函数（或称为证据，evidence）的下界。主要用于模型的选择，认为模型的边缘似然值越高，则模型对数据拟合程度越好，该模型产生Data的概率也越高。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;对于第一个目的，蒙特卡洛模拟，特别是用Gibbs取样的MCMC方法，可以近似计算复杂的后验分布，能很好地应用到贝叶斯统计推断。此方法通过大量的样本估计真实的后验，因而近似结果带有一定的随机性。与此不同的是，变分贝叶斯方法提供一种局部最优，但具有确定解的近似后验方法。&lt;/p&gt;
+
+&lt;p&gt;从某种角度看，变分贝叶斯可以看做是EM算法的扩展，因为它也是采用极大后验估计(MAP)，即用单个最有可能的参数值来代替完全贝叶斯估计。另外，变分贝叶斯也通过一组相互依然（mutually dependent）的等式进行不断的迭代来获得最优解。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+
+&lt;p&gt;重新考虑一个问题：1）有一组观测数据&lt;script type=&quot;math/tex&quot;&gt;D&lt;/script&gt;，并且已知模型的形式，求参数与潜变量（或不可观测变量）&lt;script type=&quot;math/tex&quot;&gt;Z = \{ {Z_1},...,{Z_n}\}&lt;/script&gt; 的后验分布: &lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;。&lt;/p&gt;
+
+&lt;p&gt;正如上文所描述的后验概率的形式通常是很复杂(Intractable)的,对于一种算法如果不能在多项式时间内求解，往往不是我们所考虑的。因而我们想能不能在误差允许的范围内，用更简单、容易理解(tractable)的数学形式Q(Z)来近似&lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;,即 &lt;script type=&quot;math/tex&quot;&gt;P(Z  \vert  D) \approx Q(Z)&lt;/script&gt;。&lt;/p&gt;
+
+&lt;p&gt;由此引出如下两个问题：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;假设存在这样的&lt;script type=&quot;math/tex&quot;&gt;Q(Z)&lt;/script&gt;,那么如何度量&lt;script type=&quot;math/tex&quot;&gt;Q(Z)&lt;/script&gt;与&lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;之间的差异性 (dissimilarity).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如何得到简单的&lt;script type=&quot;math/tex&quot;&gt;Q(Z)&lt;/script&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;对于问题一，幸运的是，我们不需要重新定义一个度量指标。在信息论中，已经存在描述两个随机分布之间距离的度量，即相对熵，或者称为Kullback-Leibler散度。&lt;/p&gt;
+
+&lt;p&gt;对于问题二，显然我们可以自主决定&lt;script type=&quot;math/tex&quot;&gt;Q(Z)&lt;/script&gt;的分布，只要它足够简单，且与&lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;接近。然而不可能每次都手工给出一个与&lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;接近且简单的&lt;script type=&quot;math/tex&quot;&gt;Q(Z)&lt;/script&gt;，其方法本身已经不具备可操作性。所以需要一种通用的形式帮助简化问题。那么数学形式复杂的原因是什么？在“模型的选择”部分，曾提到Occam’s razor，认为一个模型的参数个数越多，那么模型复杂的概率越大;此外，如果参数之间具有相互依赖关系(mutually dependent)，那么通常很难对参数的边缘概率精确求解。&lt;/p&gt;
+
+&lt;p&gt;幸运的是，统计物理学界很早就关注了高维概率函数与它的简单形式，并发展了平均场理论。简单讲就是：系统中个体的局部相互作用可以产生宏观层面较为稳定的行为。于是我们可以作出后验条件独立（posterior independence）的假设。即，&lt;script type=&quot;math/tex&quot;&gt;\forall i,p(Z  \vert  D) = p(Z_i  \vert  D)p({Z_{-i}} \vert D)&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;kullback-leibler散度&quot;&gt;Kullback-Leibler散度&lt;/h2&gt;
+
+&lt;p&gt;在统计学中，相对熵对应的是似然比的对数期望，相对熵 &lt;script type=&quot;math/tex&quot;&gt;D(p \vert  \vert q)&lt;/script&gt; 度量当真实分布为 P而假定分布为Q时的无效性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;  两个概率密度函数为&lt;script type=&quot;math/tex&quot;&gt;p(x)&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;q(x)&lt;/script&gt;之间的相对熵定义为&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;D_{KL}(p \vert  \vert q) = \sum_{x} p(x) \log \frac{p(x)}{q(x)}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;KL散度有如下性质：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;{D_{KL}}(p \vert  \vert q) \ne {D_{KL}}(q \vert  \vert p)&lt;/script&gt;;&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;{D_{KL}}(p \vert  \vert q) \ge 0&lt;/script&gt; ，当且仅当&lt;script type=&quot;math/tex&quot;&gt;p=q&lt;/script&gt;时为零；&lt;/li&gt;
+  &lt;li&gt;不满足三角不等式。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Q分布与P分布的KL散度为：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D_{KL}(Q \vert  \vert P) = \sum\limits_Z Q(Z)\log \frac{Q(Z)}{P(Z \vert D)} = \sum\limits_Z Q(Z)\log \frac{Q(Z)}{P(Z,D)} + \log P(D)&lt;/script&gt;
+
+&lt;p&gt;或者&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\log P(D) = {D_{KL}}(Q \vert  \vert P) - \sum\limits_Z {Q(Z)\log \frac{Q(Z)}{P(Z,D)}} ={D_{KL}}(Q \vert  \vert P) + L(Q).&lt;/script&gt;
+
+&lt;p&gt;由于对数证据&lt;script type=&quot;math/tex&quot;&gt;logP(D)&lt;/script&gt;被相应的Q所固定，为了使KL散度最小，则只要极大化&lt;script type=&quot;math/tex&quot;&gt;L(Q)&lt;/script&gt;。通过选择合适的Q，使&lt;script type=&quot;math/tex&quot;&gt;L(Q)&lt;/script&gt;便于计算和求极值。这样就可以得到后验&lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;的近似解析表达式和证据（log evidence）的下界&lt;script type=&quot;math/tex&quot;&gt;L(Q)&lt;/script&gt;，又称为变分自由能（variational free energy）：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L(Q)=\sum\limits_Z {Q(Z)\log P(Z,D)}-\sum\limits_Z {Q(Z)\log Q(Z)}={E_Q}[\log P(Z,D)]+H(Q)&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/variational-bayes/vb-1.png&quot; alt=&quot;vb1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;平均场理论mean-field-method&quot;&gt;平均场理论（Mean Field Method）&lt;/h2&gt;
+
+&lt;p&gt;数学上说，平均场的适用范围只能是完全图，或者说系统结构是well-mixed，在这种情况下，系统中的任何一个个体以等可能接触其他个体。反观物理，平均场与其说是一种方法，不如说是一种思想。其实统计物理的研究目的就是期望对宏观的热力学现象给予合理的微观理论。物理学家坚信，即便不满足完全图的假设，但既然这种“局部”到“整体”的作用得以实现，那么个体之间的局部作用相较于“全局”的作用是可以忽略不计的。&lt;/p&gt;
+
+&lt;p&gt;根据平均场理论，变分分布Q(Z)可以通过参数和潜在变量的划分（partition）因式分解，比如将&lt;script type=&quot;math/tex&quot;&gt;Z&lt;/script&gt;划分为&lt;script type=&quot;math/tex&quot;&gt;{Z_1} \ldots {Z_M}&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Q(Z) = \prod\limits_{i = 1}^M {q(Z_i \vert D)}&lt;/script&gt;
+
+&lt;p&gt;注意这里并非一个不可观测变量一个划分，而应该根据实际情况做决定。当然你也可以这么做，但是有时候，将几个潜变量放在一起会更容易处理。&lt;/p&gt;
+
+&lt;h3 id=&quot;平均场方法的合理性&quot;&gt;平均场方法的合理性&lt;/h3&gt;
+
+&lt;p&gt;在量子多体问题中，用一个（单体）有效场来代替电子所受到的其他电子的库仑相互作用。这个有效场包含所有其他电受到的其他电子的库仑相互作用。这个有效场包含了所有其他电子对该电子的相互作用。利用有效场取代电子之间的库仑相互作用之后，每一个电子在一个有效场中运动，电子与电子之间的运动是独立的(除了需要考虑泡利不相容原理)，原来的多体问题转化为单体问题。&lt;/p&gt;
+
+&lt;p&gt;同样在变分分布Q(Z)这个系统中，我们也可以将每一个潜变量划分看成是一个单体，其他划分对其的影响都可以用一个看做是其自身的作用。采用的办法是迭代(Iterative VB(IVB) algorithm)。这是由于当变分自由能取得最大值的时候，划分&lt;script type=&quot;math/tex&quot;&gt;Z_i&lt;/script&gt;与它的互斥集&lt;script type=&quot;math/tex&quot;&gt;{Z_{-i}}&lt;/script&gt;(或者更进一步，马尔科夫毯(Markov blanket), &lt;script type=&quot;math/tex&quot;&gt;mb(Z_i) )&lt;/script&gt;具有一个简单的关系：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Q(Z_i) \propto \frac{1}{C}\exp {\left\langle {\ln P(Z_i,{Z_{-i}},D)} \right\rangle _{Q({Z_{-i}}) or Q(mb(Z_i))}}&lt;/script&gt;
+
+&lt;p&gt;（为保持文章的连贯性，此处先不证明，下文将详细说明）&lt;/p&gt;
+
+&lt;p&gt;于是，对于某个划分&lt;script type=&quot;math/tex&quot;&gt;Z_i&lt;/script&gt;,我们可以先保持其他划分&lt;script type=&quot;math/tex&quot;&gt;{Z_{-i}}&lt;/script&gt;不变，然后用以上关系式更新&lt;script type=&quot;math/tex&quot;&gt;Z_i&lt;/script&gt;。相同步骤应用于其他划分的更新，使得每个划分之间充分相互作用，最终达到稳定值。&lt;/p&gt;
+
+&lt;p&gt;具体更新边缘概率（VB-marginal）步骤如下：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;初始化&lt;script type=&quot;math/tex&quot;&gt;{Q^{(0)}}(Z_i)&lt;/script&gt;，可随机取；&lt;/li&gt;
+  &lt;li&gt;在第k步，计算&lt;script type=&quot;math/tex&quot;&gt;{Z_{-i}}&lt;/script&gt;的边缘密度&lt;script type=&quot;math/tex&quot;&gt;Q^{[k]}({Z_{-i}} \vert D) \propto \exp \int\limits_{Z_i^*} Q^{[k - 1]}(Z_i \vert D) \log P(Z_i,Z_{-i},D)dZ_i&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;计算&lt;script type=&quot;math/tex&quot;&gt;Z_i&lt;/script&gt;的边缘密度&lt;script type=&quot;math/tex&quot;&gt;Q^{[k]}(Z_i \vert D) \propto \exp \int\limits_{Z_{-i}^*} Q^{[k]}({Z_{-i}} \vert D) \log P(Z_i,{Z_{-i}},D)d{Z_{-i}}&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;理论上&lt;script type=&quot;math/tex&quot;&gt;{Q^{[\infty ]}}(Z_i \vert D)&lt;/script&gt;将会收敛，则反复执行(2), (3)直到&lt;script type=&quot;math/tex&quot;&gt;Q(Z_i)&lt;/script&gt;,&lt;script type=&quot;math/tex&quot;&gt;Q({Z_{-i}})&lt;/script&gt;稳定，或稳定在某个小范围内。&lt;/li&gt;
+  &lt;li&gt;最后，得 &lt;script type=&quot;math/tex&quot;&gt;Q(Z) = Q(Z_i \vert D)Q({Z_{-i}} \vert D)&lt;/script&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;平均场估计下边缘概率的无意义性-vb-marginals&quot;&gt;平均场估计下边缘概率的无意义性 (VB-marginals)&lt;/h3&gt;
+
+&lt;p&gt;注意到Q(Z)估计的是联合概率密度，而对于每一个&lt;script type=&quot;math/tex&quot;&gt;Q_i(Z_i)&lt;/script&gt;，其与真实的边缘概率密度&lt;script type=&quot;math/tex&quot;&gt;{P_i}(Z_i)&lt;/script&gt;的差别可能是很大的。不应该用&lt;script type=&quot;math/tex&quot;&gt;Q_i(Z_i)&lt;/script&gt;来估计真实的边缘密度，比如在一个贝叶斯网络中，你不应该用它来推测某个节点的状态。而这其实是很糟糕的，相比于其他能够使用节点状态信息来进行局部推测的算法，变分贝叶斯方法更不利于调试。&lt;/p&gt;
+
+&lt;p&gt;比如一个标准的高斯联合分布&lt;script type=&quot;math/tex&quot;&gt;P(\mu ,x)&lt;/script&gt;和最优的平均场高斯估计&lt;script type=&quot;math/tex&quot;&gt;Q(\mu ,x)&lt;/script&gt;。Q选择了在它自己作用域中的高斯分布，因而变得很窄。此时边缘密度&lt;script type=&quot;math/tex&quot;&gt;{Q_x}(x)&lt;/script&gt;变得非常小，完全与&lt;script type=&quot;math/tex&quot;&gt;{P_x}(x)&lt;/script&gt;不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/variational-bayes/vb-2.png&quot; alt=&quot;vb2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;泛函的概念&quot;&gt;泛函的概念&lt;/h3&gt;
+
+&lt;p&gt;上文已经提到我们要找到一个更加简单的函数&lt;script type=&quot;math/tex&quot;&gt;D(Z)&lt;/script&gt;来近似&lt;script type=&quot;math/tex&quot;&gt;P(Z \vert D)&lt;/script&gt;，同时问题转化为求解证据&lt;script type=&quot;math/tex&quot;&gt;logP(Z)&lt;/script&gt;的下界&lt;script type=&quot;math/tex&quot;&gt;L(Q)&lt;/script&gt;，或者&lt;script type=&quot;math/tex&quot;&gt;L(Q(Z))&lt;/script&gt;。应该注意到&lt;script type=&quot;math/tex&quot;&gt;L(Q)&lt;/script&gt;并非普通的函数，而是以整个函数为自变量的函数，这便是泛函。我们先介绍一下什么是泛函，以及泛函取得极值的必要条件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;泛函&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;设对于(某一函数集合内的)任意一个函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;，有另一个数&lt;script type=&quot;math/tex&quot;&gt;J[y]&lt;/script&gt;与之对应，则称&lt;script type=&quot;math/tex&quot;&gt;J[y]&lt;/script&gt;为&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;的泛函。泛函可以看成是函数概念的推广。
+这里的函数集合，即泛函的定义域，通常要求&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt; 满足一定的边界条件，并且具有连续的二阶导数．这样的&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;称为可取函数。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;泛函不同于复合函数&lt;/strong&gt;，&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;例如&lt;script type=&quot;math/tex&quot;&gt;g=g(f(x))&lt;/script&gt;; 对于后者，给定一个&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;值，仍然是有一个&lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt;值与之对应；
+对于前者，则必须给出某一区间上的函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;，才能得到一个泛函值&lt;script type=&quot;math/tex&quot;&gt;J[y]&lt;/script&gt;。(定义在同一区间上的)函数不同，泛函值当然不同，
+为了强调泛函值&lt;script type=&quot;math/tex&quot;&gt;J[y]&lt;/script&gt;与函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;之间的依赖关系，常常又把函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;称为变量函数。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;泛函的形式多种多样，通常可以积分形式：&lt;script type=&quot;math/tex&quot;&gt;J[y] = \int_{x_0}^{x_1} {F(x,y,y')} dx&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;泛函取极值的必要条件&quot;&gt;泛函取极值的必要条件&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;泛函的极值&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“当变量函数为&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;时，泛函&lt;script type=&quot;math/tex&quot;&gt;J [y]&lt;/script&gt;取极大值”的含义就是：对于极值函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;及其“附近”的变量函数&lt;script type=&quot;math/tex&quot;&gt;y(x) + \delta y(x)&lt;/script&gt;，恒有&lt;script type=&quot;math/tex&quot;&gt;J\left[ {y + \delta y} \right] \le J[y]&lt;/script&gt;;&lt;/p&gt;
+
+&lt;p&gt;所谓函数&lt;script type=&quot;math/tex&quot;&gt;y(x) + \delta y(x)&lt;/script&gt;在另一个函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;的“附近”，指的是：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\vert \delta y(x) \vert  &lt; \varepsilon %]]&gt;&lt;/script&gt;;&lt;/li&gt;
+  &lt;li&gt;有时还要求&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\vert (\delta y)'(x)  \vert  &lt; \varepsilon %]]&gt;&lt;/script&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这里的&lt;script type=&quot;math/tex&quot;&gt;\delta y(x)&lt;/script&gt;称为函数&lt;script type=&quot;math/tex&quot;&gt;y(x)&lt;/script&gt;的变分。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Euler–Lagrange方程&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;可以仿造函数极值必要条件的导出办法，导出泛函取极值的必要条件，这里不做严格的证明，直接给出。
+泛函&lt;script type=&quot;math/tex&quot;&gt;J[y]&lt;/script&gt;取到极大值的必要条件是一级变分&lt;script type=&quot;math/tex&quot;&gt;\delta J[y]&lt;/script&gt;为0，其微分形式一般为二阶常微分方程，即Euler-Largange方程：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial F}\partial y - \frac{d}dx\frac{\partial F}\partial y' = 0&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;泛函的条件极值&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在约束条件 下求函数&lt;script type=&quot;math/tex&quot;&gt;J[y]&lt;/script&gt;的极值，可以引入Largange乘子&lt;script type=&quot;math/tex&quot;&gt;\lambda&lt;/script&gt;，从而定义一个新的泛函，
+&lt;script type=&quot;math/tex&quot;&gt;\tilde J[y] = J[y] - \lambda {J_0}[y]&lt;/script&gt;。仍将&lt;script type=&quot;math/tex&quot;&gt;\delta y&lt;/script&gt;看成是独立的，则泛函&lt;script type=&quot;math/tex&quot;&gt;\tilde J[y]&lt;/script&gt;在边界条件下取极值的必要条件就是，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\frac{\partial}{\partial y} - \frac{d}{dx} \frac{\partial}{\partial y'})
+(F - \lambda G) = 0&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;问题求解&quot;&gt;问题求解&lt;/h2&gt;
+
+&lt;p&gt;对于&lt;script type=&quot;math/tex&quot;&gt;L(Q(Z)) = {E_Q(Z)}[\ln P(Z,D)] + H(Q(Z))&lt;/script&gt;，将右式第一项定义为能量(Energy)，第二项看做是信息熵(Shannon entropy)。我们只考虑自然对数的形式，因为对于任何底数的对数总是可以通过换底公式将其写成自然对数与一个常量的乘积形式。另外根据平均场假设可以得到如下积分形式，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L(Q(Z)) = \int {(\prod\limits_i {Q_i(Z_i)})} \ln P(Z,D)dZ - \int {(\prod\limits_k {Q_k({Z_k})} )} \sum\limits_i {\ln Q_i(Z_i)} dZ&lt;/script&gt;
+
+&lt;p&gt;其中&lt;script type=&quot;math/tex&quot;&gt;Q(Z) = \prod\limits_i {Q_i(Z_i)}&lt;/script&gt;，且满足 &lt;script type=&quot;math/tex&quot;&gt;\forall i.{\rm{ }}\int {Q_i(Z_i)} dZ_i = 1&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;考虑划分&lt;script type=&quot;math/tex&quot;&gt;Z = \left\{ Z_i,{\rm{ }}{Z_{-i}} \right\}&lt;/script&gt;，其中&lt;script type=&quot;math/tex&quot;&gt;Z_{-i} = Z\backslash Z_i&lt;/script&gt;，先考虑能量项(Energy)（第一项），&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+{E_Q(Z)}[\ln P(Z,D)] &amp; = \int {(\prod\limits_i {Q_i(Z_i)} )} \ln P(Z, D)dZ\\
+&amp; =\int Q_i(Z_i)dZ_i\int Q_{-i}({Z_{-i}})\ln P(Z, D)d{Z_{-i}}\\
+&amp; =\int Q_i(Z_i){\left\langle \ln P(Z, D) \right\rangle }_{Q_{-i}(Z_{-i})}dZ_i\\
+&amp; =\int Q_i(Z_i)\ln \exp { \left\langle {\ln P(Z,D)} \right\rangle }_{Q_{-i}({Z_{-i}})} dZ_i \\
+&amp; =\int Q_i(Z_i) \ln Q_i^*(Z_i) dZ_i + \ln C \\
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;其中定义&lt;script type=&quot;math/tex&quot;&gt;Q_i^*(Z_i) = \frac{1}{C}\exp {\left\langle {\ln P(Z,D)} \right\rangle _{Q_{-i}({Z_{-i}})}}&lt;/script&gt;，&lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;为的归一化常数。再考虑熵量(entropy)（第二项），&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+H(Q(Z)) 
+&amp; = -\sum\limits_i {\int {(\prod\limits_k {Q_k({Z_k})} )} \ln Q_i(Z_i)dZ} \\
+&amp; =-\sum\limits_i {\int {\int {Q_i(Z_i)Q_{-i}({Z_{-i}})\ln Q_i(Z_i dZ_id{Z_{-i}}} } }\\
+&amp; =-{\sum\limits_i {\left\langle {\int {Q_i(Z_i)\ln Q_i(Z_i)dZ_i} } \right\rangle } _{Q_{-i}({Z_{-i}})}} \\
+&amp; =-\sum\limits_i \int Q_i(Z_i)\ln Q_i(Z_i)dZ_i
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;此时得到泛函，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+L(Q(Z)) 
+&amp; = \int {Q_i(Z_i)\ln Q_i^*(Z_i)} dZ_i-\sum\limits_i {\int {Q_i(Z_i)\ln Q_i(Z_i)dZ_i} } + {\rm{lnC}} \\
+&amp; = (\int {Q_i(Z_i)\ln Q_i^*(Z_i)} dZ_i - \int {Q_i(Z_i)\ln Q_i(Z_i)dZ_i} )-\sum\limits_{k \ne i} {\int {Q_k({Z_k})\ln Q_k({Z_k})d{Z_k}} } + {\rm{lnC}}\\
+&amp; =\int Q_i(Z_i)\ln \frac{Q_i^*(Z_i)}{Q_i(Z_i)} dZ_i-\sum\limits_{k \ne i} \int Q_k({Z_k})\ln Q_k({Z_k})d{Z_k} +\ln C\\
+&amp; = - {D_{KL}}(Q_i(Z_i) \vert  \vert Q_i^*(Z_i)) + H[Q_{-i}({Z_{-i}})] + \ln C
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;注意到&lt;script type=&quot;math/tex&quot;&gt;L(Q(Z))&lt;/script&gt; 并非只有一个等式，如果不可观测变量有M个划分。 那么将有M个方程。 为了使得&lt;script type=&quot;math/tex&quot;&gt;L(Q(Z))&lt;/script&gt;达到最大值, 同时注意到约束条件, 根据泛函求条件极值的必要条件, 得,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\forall i. \frac{\partial}{\partial Q_i(Z_i)} \{- {D_{KL}}[Q_i(Z_i) \vert  \vert Q_i^*(Z_i)] - {\lambda _i}(\int {Q_i(Z_i)} dZ_i - 1)\} : = 0&lt;/script&gt;
+
+&lt;p&gt;直接求解将得到Gibbs分布，略显复杂;实际上，注意到KL散度，我们可以直接得到KL散度等于0的时候，&lt;script type=&quot;math/tex&quot;&gt;L(D)&lt;/script&gt;达到最大值，最终得到&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Q_i(Z_i) = Q_i^*(Z_i) = \frac{1}{C}\exp {\left\langle {\ln P(Z_i,{Z_{-i}},D)} \right\rangle _{Q_{-i}({Z_{-i}})}}&lt;/script&gt;
+
+&lt;p&gt;C为归一化常数&lt;script type=&quot;math/tex&quot;&gt;C = \int \exp \left\langle {\ln (Z_i,{Z_{-i}},D)} \right\rangle_{Q_{-i}({Z_{-i}})} d Z_{-i}&lt;/script&gt; , &lt;script type=&quot;math/tex&quot;&gt;Q(Z_i)&lt;/script&gt;为联合概率函数在除&lt;script type=&quot;math/tex&quot;&gt;Z_i&lt;/script&gt;本身外的其他划分下的对数期望。又可以写为 &lt;script type=&quot;math/tex&quot;&gt;\ln Q_i(Z_i) = {\left\langle {\ln P(Z_i,{Z_{-i}},D)} \right\rangle_{Q_{-i}({Z_{-i}})}} + const&lt;/script&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;[1] Smídl, Václav, and Anthony Quinn. &lt;em&gt;The variational Bayes method in signal processing&lt;/em&gt;. Springer, 2006.&lt;/p&gt;
+
+&lt;p&gt;[2] Beal, Matthew James. &lt;em&gt;Variational algorithms for approximate Bayesian inference&lt;/em&gt;. Diss. University of London, 2003.&lt;/p&gt;
+
+&lt;p&gt;[3] Fox, Charles W., and Stephen J. Roberts. “A tutorial on variational Bayesian inference.” &lt;em&gt;Artificial Intelligence Review&lt;/em&gt; 38.2 (2012): 85-95.&lt;/p&gt;
+
+&lt;p&gt;[4] Attias, Hagai. “Inferring parameters and structure of latent variable models by variational Bayes.” &lt;em&gt;Proceedings of the Fifteenth conference on Uncertainty in artificial intelligence&lt;/em&gt;. Morgan Kaufmann Publishers Inc., 1999.&lt;/p&gt;
+
+&lt;p&gt;[5] Attias, Hagai. “A variational Bayesian framework for graphical models.”&lt;em&gt;Advances in neural information processing systems&lt;/em&gt; 12.1-2 (2000): 209-215.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;完整文章下载: &lt;a href=&quot;/pdf/intro_vb_2013.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Mar 2013 01:34:54 +0800</pubDate>
+        <link>http://localhost:4000/2013/03/07/variational-bayes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/03/07/variational-bayes/</guid>
+        
+        <category>Machine Learning</category>
+        
+        <category>Variational Inference</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

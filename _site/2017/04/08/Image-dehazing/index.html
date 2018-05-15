@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Imagination is more important than knowledge. -Albert Einstein">
+    <meta name="keywords"  content="华俊豪, huajh, huajh7, Junhao Hua, @huajh, 华俊豪的博客, huajh7's Blog, 博客, 机器学习, 贝叶斯">
+    <meta name="theme-color" content="#000000">
+    
+    <title>除雾算法最新进展 - Junhao Hua 博客 | huajh7's Blog</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2017/04/08/Image-dehazing/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://huajh7.com" > Academic Website</a>
+            <a class="navbar-brand" href="/">huajh7's Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">about</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/archives/">Archives</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-universe.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post-bg-universe.jpg')
+    }
+
+    
+</style>
+<header class="intro-header" >              
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#Computer Vision" title="Computer Vision">Computer Vision</a>
+                        
+                        <a class="tag" href="/tags/#Image Processing" title="Image Processing">Image Processing</a>
+                        
+                        <a class="tag" href="/tags/#Image Haze Removal" title="Image Haze Removal">Image Haze Removal</a>
+                        
+                    </div>
+                    <h1>除雾算法最新进展</h1>
+                    
+                    
+                    <h2 class="subheading">Recent developments in Image Haze Removal</h2>
+                    
+                    <span class="meta">Posted by huajh7 on April 8, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+
+    <div class="container">
+
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-9 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container"> <!-- style="width:70%"  col-lg-9 col-lg-offset-1  col-lg-8 col-lg-offset-2 -->
+
+				<p>除雾算法主要包括 1) 图像增强方法，和2) 基于物理模型的方法。</p>
+
+<p>后者又包括(1)基于景物深度信息, (2)基于大气光偏振特性, 以及(3)基于雾天图像的先验知识。</p>
+
+<p>下面总结下基于雾天图像的先验知识的去雾算法。</p>
+
+<h4 id="maximum-contrast">Maximum Contrast</h4>
+
+<blockquote>
+  <p>基于统计信息, 认为无雾图像相对于有雾图像来说对比度要高得多</p>
+
+  <p>根据大气散射模型，雾霾会降低物体成像的对比度. 因此，基于这个推论可利用局部对比度来近似估计雾霾的浓度。同时，也可以通过最大化局部对比度来还原图像的颜色和能见度。</p>
+</blockquote>
+
+<p>RT Tan, <strong>Visibility in bad weather from a single image</strong>, CVPR, <code class="highlighter-rouge">2008</code>, cited by <code class="highlighter-rouge">1000+</code></p>
+
+<h4 id="fattal">Fattal</h4>
+
+<blockquote>
+  <p>这种方法是基于物理的复原模型, 复原图像自然且能求出良好的深度图. 然而, 这种方法是基于彩色图像的统计特性的,因而该方法也无法作用于灰度图像, 而且这个统计特性在浓雾区域和低信噪比区域会失效</p>
+</blockquote>
+
+<p>Raanan Fattal, <strong>Single image dehazing</strong>, TOG, <code class="highlighter-rouge">2008</code>, cited by <code class="highlighter-rouge">1100+</code></p>
+
+<h4 id="dark-channel-prior">Dark Channel Prior</h4>
+
+<blockquote>
+  <p>说起去雾特征，不得不提起的暗通道先验（DCP）。大道之行在于简，DCP作为CVPR 2009的最佳论文，以简洁有效的先验假设解决了雾霾浓度估计问题。</p>
+</blockquote>
+
+<blockquote>
+  <p>观察发现，清晰图像块的RGB颜色空间中有一个通道很暗（数值很低甚至接近于零）。因此基于暗通道先验，雾的浓度可由最暗通道的数值近似表示.</p>
+</blockquote>
+
+<p>Kaiming He, <strong>Single Image Haze Removal Using Dark Channel Prior</strong>, CVPR/PAMI, <code class="highlighter-rouge">2009/2011</code>, cited by <code class="highlighter-rouge">1800+</code>.</p>
+
+<blockquote>
+  <p>该方法具有革命性, 简单有效, 去雾效果理想, 处理后图像颜色自然逼真, 少有地用一个简单得不可思议的方法使一个复杂问题的实验效果得到巨大的提升.</p>
+</blockquote>
+
+<ul>
+  <li>propose the <strong>Dark Channel Prior</strong></li>
+  <li>soft matting过程比较复杂，并且执行速度非常慢</li>
+</ul>
+
+<p>Kaiming He, <strong>Guided Image Filtering</strong>, ECCV/PAMI, <code class="highlighter-rouge">2010/2013</code>, cited by <code class="highlighter-rouge">1990+</code></p>
+
+<blockquote>
+  <p>导向滤波来代替soft matting的过程，且速度很快</p>
+
+  <p>暗通道先验去雾算法的参数需要根据不同的图像手动地作出调整, 无法自适应调整.
+该方法所使用的软抠图算法需要进行大型稀疏矩阵的运算,时间和空间复杂度都极高,无法实时处理大幅图片, 而且当景物颜色与天空颜色接近且没有阴影时, 暗原色先验失效, 该算法也随之失效。</p>
+
+  <p>后来该文献的作者 He 又使用了引导滤波替代软抠图处理, 较大地提高了效率 (600像素 x 400 像素图像处理时间从 10 秒变为 0.1 秒)的同时, 去雾效果基本不变</p>
+</blockquote>
+
+<p>…</p>
+
+<p>有很多改进算法</p>
+
+<p>…</p>
+
+<p>Zhengguo Li, <strong>Weighted Guided Image Filtering</strong>, <code class="highlighter-rouge">2015</code>, cited by <code class="highlighter-rouge">40+</code></p>
+
+<h4 id="tarel">Tarel</h4>
+
+<p>Tarel 假设大气耗散函数 (Atmosphericveil) 在局部上变化平缓, 因此用中值滤波代替 He等的算法中的最小值滤波来对介质透射系数进行估计.</p>
+
+<p>Jean-Philippe Tarel, <strong>Fast visibility restoration from a single color or gray level image</strong>, CVPR, <code class="highlighter-rouge">2009</code>, cited by <code class="highlighter-rouge">600+</code></p>
+
+<blockquote>
+  <p>He与Tarel的方法简单有效,尤其He提出的暗原色先验去雾算法是图像去雾领域的一个<code class="highlighter-rouge">重要突破</code>, 为图像去雾的研究人员提供了一个新思路,后来出现的许多去雾算法都是基于这两种算法的改进或补充</p>
+
+</blockquote>
+
+<h4 id="color--attenuation-prior">Color  Attenuation Prior</h4>
+<blockquote>
+
+  <p>作者提出了一个简单，但是很有效的先验：颜色衰减先验（CAP），用来通过仅仅输入一张有雾的图像来去除雾的影响。这是一种与暗通道先验（DCP）相似的先验特征。</p>
+
+  <p>作者观察发现雾霾会同时导致图像饱和度的降低和亮度的增加，整体上表现为颜色的衰减。根据颜色衰减先验，亮度和饱和度的差值被应用于估计雾霾的浓度.</p>
+
+  <p>作者创建了一个线性回归模型，利用颜色衰减先验这个新奇的先验，通过对有雾图像场景深度的建模，利用有监督学习的方法学习到的参数，深度信息会被很好的恢复。利用有雾图像的深度图，我们可以很容易的恢复一张有雾的图像。</p>
+
+</blockquote>
+
+<p>Qingsong Zhu, <strong>A fast single image haze removal algorithm using color attenuation prior</strong>, TIP, <code class="highlighter-rouge">2015</code>, cited by <code class="highlighter-rouge">60+</code></p>
+
+<p>Project page: <a href="https://github.com/JiamingMai/Color-Attenuation-Prior-Dehazing">https://github.com/JiamingMai/Color-Attenuation-Prior-Dehazing</a></p>
+
+<p><code class="highlighter-rouge">expermental results</code>
+<img src="/img/posts/haze-removal/post-haze-removal-zhu2016.jpg" alt="img" /></p>
+
+<h2 id="3-综述">3. 综述</h2>
+
+<p>吴迪, <strong>图像去雾的最新研究进展</strong>, 自动化学报, <code class="highlighter-rouge">2015</code>, cited by <code class="highlighter-rouge">55</code>.</p>
+
+<h2 id="4-最新文献">4. 最新文献</h2>
+
+<p><code class="highlighter-rouge">deep learning</code></p>
+<blockquote>
+  <p>DehazeNet是一个特殊设计的深度卷积网络，利用深度学习去智能地学习雾霾特征，解决手工特征设计的难点和痛点。</p>
+
+</blockquote>
+
+<p>Bolun Cai, <strong>DehazeNet: An End-to-End System for Single Image Haze Removal</strong>, <code class="highlighter-rouge">2016</code>, cited by <code class="highlighter-rouge">9</code></p>
+
+<ul>
+  <li>Project page: <a href="http://caibolun.github.io/DehazeNet/">http://caibolun.github.io/DehazeNet/</a></li>
+  <li>Code: <a href="https://github.com/caibolun/DehazeNet">https://github.com/caibolun/DehazeNet</a></li>
+</ul>
+
+<p>Dana Berman, <strong>Non-Local Image Dehazing</strong>, CVPR, 2016, cited by <code class="highlighter-rouge">7</code></p>
+
+<p>Mostafa M. El-Hashash, <strong>High-speed video haze removal algorithm for embedded systems</strong>, <code class="highlighter-rouge">2016</code>, cited by <code class="highlighter-rouge">0</code></p>
+
+<ul>
+  <li>Real-time video processing</li>
+  <li>uses the dark channel prior</li>
+  <li>eight frames per second at 720 x 480 video frame resolution</li>
+</ul>
+
+<p>Adobe, Photoshop Lightroom CC, <a href="http://www.adobe.com/products/photoshop-lightroom/features.html">http://www.adobe.com/products/photoshop-lightroom/features.html</a></p>
+
+
+
+                <hr style="visibility: hidden;">
+
+				
+				
+				<div id="disqus_thread"></div>
+				<script>
+
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+				/*
+				var disqus_config = function () {
+				this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				*/
+				var disqus_username = 'huajh7';
+				
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = 'https://'+disqus_username+'.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				
+				
+				
+				
+
+                <!-- 网易云跟帖 start -->
+                
+                <!-- 网易云跟帖  end -->
+							
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/04/06/motion-detection/" data-toggle="tooltip" data-placement="top" title="运动检测文献综述">
+                        Previous<br>
+                        <span>运动检测文献综述</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2017/04/14/perception-knowledge-imaginiation/" data-toggle="tooltip" data-placement="top" title="信息的交叉获取与联想激活">
+                        Next<br>
+                        <span>信息的交叉获取与联想激活</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+
+
+
+
+
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#Machine Learning" title="Machine Learning" rel="2">
+                                    Machine Learning
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#Variational Inference" title="Variational Inference" rel="2">
+                                    Variational Inference
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#Computer Vision" title="Computer Vision" rel="2">
+                                    Computer Vision
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.huajh7.com">My academic Website</a></li>
+                    
+                        <li><a href="http://www.homfen.me">Homfen</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "huajh7";
+    var disqus_identifier = "/2017/04/08/Image-dehazing";
+    var disqus_url = "http://localhost:4000/2017/04/08/Image-dehazing/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: ''
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/huajh7">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/huajh">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/hua-jun-hao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/junhao-hua-01b03150">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                                        
+                </ul>
+                <p class="copyright text-muted" style="font-size: 17px">
+                    Copyright &copy; huajh7's Blog 2018
+                    <br>
+                    <a href="http://www.easycounter.com/">
+                    <img alt="Website Hit Counter" src="http://www.easycounter.com/counter.php?blog_huajh7" border="0"></a>
+                     <i><font size="2" face="Arial">Vistors Since Apr 2017</font></i>
+                    <br>
+<!--                     Theme by <a href="https://github.com/Huxpro/huxpro.github.io">Hux</a> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
+</script>
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async('/js/jquery.tagcloud.js',function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '78399d5a8a7f58e0d22390246d356dab';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+        var P = $('div.post-container'),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;    
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+<!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0" /> -->
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+
+</html>
